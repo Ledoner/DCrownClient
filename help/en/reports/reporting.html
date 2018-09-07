@@ -1,0 +1,54 @@
+<html>
+  <head>
+        <link href="../datacrow_help.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+
+    <h1>Reporting</h1>
+    <i>Menu path: Tools &gt; Create Report</i><br>
+    <i>or: right-click on selected items in view and select Create Report</i><br><br>
+
+    The reporting tool creates PDF and HTML files based on items in the <a href="../items/views.html">view</a>.
+    
+    <br><br><img src="./images/reporting.png" alt="" border="0"><br><br>
+    
+    To create a report select a format (either PDF or HTML) and a report type from the dropdown box. Select a target file and press "run" to start the report generation.
+
+    <br><br>
+
+    Note that the drop-down box with the report types can be extended with your own. The reports are actually XSLT (XSL Transformation) files so you need to know the syntax before you can create your own report file(s). 
+    <i>There is a report creation guide available <a href="http://www.datacrow.net/#downloads">here</a></i>.
+
+    <br><br>
+
+    A good place to start would be <a href="http://www.w3schools.com/xsl/">http://www.w3schools.com/xsl/</a>. The fields you can add to your report are all mentioned in &lt;data crow directory&gt;/reports/dictionary.txt (if this file is not there or you are not sure it is up to date, open and close the report dialog. This (re-)creates the before mentioned file).
+
+    <br><br>
+
+    After you have created a XSLT file, place it in the &lt;data crow directory&gt;/reports/&lt;module name&gt; directory (or in any of its sub directories).
+
+    <h2>Settings</h2>
+
+    <h3>Copy Images</h3>
+    Copies the images to a sub directory in the location where the report is saved.
+
+    <h3>Scale Image</h3>
+    This option is only enabled when "Copy Images" is selected and allows you to scale the image to a lesser or greater size. You can indicate the new maximum height and width in the corresponding input fields.
+
+    <h3>Maximum Text Length</h3>
+    Limit the length of the text(s) added to the report.
+
+    <h2>Printing a Report</h2>
+    Data Crow has no functionality to print the generated reports. In order to print a PDF file find a free PDF viewers suitable for the platform you are running on. The HTML reports can be printed using your favourite internet browser
+
+    <h2>Report examples</h2>
+
+    <img src="./images/report_list_example.JPG" alt="" border="0">
+
+    <br><br>
+
+    <img src="./images/report_card_example.JPG" alt="" border="0">
+
+  </body>
+</html>

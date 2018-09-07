@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE toc PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 1.0//EN" "http://java.sun.com/products/javahelp/toc_1_0.dtd">
+<toc version="1.0">
+
+    <tocitem target="dc.general" text="General">
+      <tocitem target="dc.general.introduction" text="Introduction to Data Crow"/>
+      <tocitem target="dc.general.wheretostart" text="Where to Start?"/>  
+      <tocitem target="dc.general.defaultmodules" text="Default Modules"/>  
+      <tocitem target="dc.general.starting" text="Starting Data Crow"/>  
+    </tocitem>      
+
+    <tocitem target="dc.general" text="Work Area">
+      <tocitem target="dc.general.screenlayout" text="Layout"/>
+      <tocitem target="dc.general.grouping" text="Grouping Pane"/>
+      <tocitem target="dc.general.menubar" text="Menu Bar"/>
+      <tocitem target="dc.general.toolbar" text="Tool Bar"/>
+      <tocitem target="dc.general.quickview" text="Quick View"/>
+    </tocitem>
+
+    <tocitem target="dc.general" text="Items">
+      <tocitem target="dc.items" text="Views">
+        <tocitem target="dc.items.views" text="Views" />
+        <tocitem target="dc.items.cardview" text="Card View" />
+        <tocitem target="dc.items.tableview" text="Table View" />
+      </tocitem>
+      <tocitem target="dc.items.sort" text="Sort"/>
+      <tocitem target="dc.filters" text="Filter &amp; Search" />
+      <tocitem target="dc.items.wizard" text="New Item Wizard"/>
+      <tocitem target="dc.items.administration" text="Administration"/>
+      <tocitem target="dc.items.mergeitems" text="Merging Property Items"/>
+      <tocitem target="dc.items.itemform" text="Item Form"/>
+      <tocitem target="dc.items.itemform_property" text="Item Form for Properties"/>
+      <tocitem target="dc.items.itemform_multiref" text="Item Form Multiple Reference Field"/>
+      <tocitem target="dc.items.templates" text="Templates"/>
+    </tocitem>   
+    
+    <tocitem target="dc.items" text="Loans">
+        <tocitem target="dc.loans" text="Lending items" />
+        <tocitem target="dc.loanadmin" text="Loan Administration" />
+     </tocitem>     
+
+    <tocitem target="dc.modules" text="Modules">
+      <tocitem target="dc.modules.alter" text="Altering a Module"/>
+      <tocitem target="dc.modules.create" text="Creating a Module"/>
+      <tocitem target="dc.modules.fields" text="Defining Fields"/>
+      <tocitem target="dc.modules.relate" text="Relating Modules"/>
+      <tocitem target="dc.modules.delete" text="Deleting Custom Modules"/>
+      <tocitem target="dc.modules.copy" text="Copy Module Wizard"/>
+      <tocitem target="dc.modules.export" text="Export Module Wizard"/>
+      <tocitem target="dc.modules.import" text="Import Module Wizard"/>
+    </tocitem>
+
+    <tocitem target="dc.settings" text="Settings">
+      <tocitem target="dc.settings" text="Settings">
+        <tocitem target="dc.settings.general" text="General Settings"/>
+        <tocitem target="dc.settings.font" text="Fonts"/>
+        <tocitem target="dc.settings.http" text="HTTP Settings"/>
+        <tocitem target="dc.settings.colors" text="Colors" />
+        <tocitem target="dc.settings.fileassociations" text="File Associations"/>
+        <tocitem target="dc.settings.module" text="Modules"/>
+        <tocitem target="dc.settings.regional" text="Regional Settings"/>
+        <tocitem target="dc.settings.filehash" text="File Hashing"/>
+        <tocitem target="dc.settings.drivemappings" text="Drive Mappings"/>
+        <tocitem target="dc.settings.directoriesasdrives" text="Directories as Drives"/>
+      </tocitem>  
+      <tocitem target="dc.settings" text="View Settings">
+          <tocitem target="dc.settings.cardview" text="Card View Settings"/>
+          <tocitem target="dc.settings.tableview" text="Table View Settings"/>
+      </tocitem>
+      <tocitem target="dc.settings.fields" text="General Field Settings"/>
+      <tocitem target="dc.settings.quickview" text="Quick View"/>
+      <tocitem target="dc.settings.itemformsettings" text="Item Form Settings"/>
+      <tocitem target="dc.settings.laf" text="Look &amp; Feel"/>
+      <tocitem target="dc.tools.resourceeditor" text="Resource Editor" />
+    </tocitem> 
+
+    <tocitem target="dc.tools" text="Tools">
+      <tocitem target="dc.tools.backup_restore" text="Backup &amp; Restore" />
+      <tocitem target="dc.tools.databaseeditor" text="Database Editor"/>
+      <tocitem target="dc.items.createmultiple" text="Create Multiple Items"/>
+      <tocitem target="dc.tools" text="Updating Items">
+        <tocitem target="dc.tools.massupdate" text="Mass Update"/>
+        <tocitem target="dc.tools.titlerewriter" text="Title Rewriting" />
+        <tocitem target="dc.tools.associatenamerewriter" text="Name Rewriting (Persons)" />
+        <tocitem target="dc.tools.updateall" text="Update all"/>
+        <tocitem target="dc.tools.findreplace" text="Find &amp; Replace"/>
+        <tocitem target="dc.tools.autonumbering" text="Auto Numbering" />
+      </tocitem>
+      <tocitem target="dc.tools" text="Item Import &amp; Export">      
+        <tocitem target="dc.tools.icalendar_export" text="ICalendar Loan Export"/>
+        <tocitem target="dc.tools.fileinfoimport" text="File Import"/>
+        <tocitem target="dc.migration.wizard.importer" text="Item Import Wizard"/>
+        <tocitem target="dc.migration.wizard.exporter" text="Item Export Wizard"/>
+      </tocitem>
+      <tocitem target="dc.tools" text="File Operations">
+        <tocitem target="dc.tools.files" text="File operations" />
+        <tocitem target="dc.tools.drivemanager" text="Drive Manager" />
+        <tocitem target="dc.tools.filerenamer" text="File Renamer" />
+      </tocitem>
+    </tocitem> 
+
+    <tocitem target="dc.help" text="Help">
+      <tocitem target="dc.tools.wizard" text="Tool Select Wizard" />
+    </tocitem>
+    
+    <tocitem target="dc.charts" text="Charts" />
+    <tocitem target="dc.reports" text="Reports" />
+    <tocitem target="dc.security" text="Security" />       
+    <tocitem target="dc.onlinesearch" text="Online Search" />    
+    <tocitem target="dc.general.log" text="The Log"/>
+</toc>

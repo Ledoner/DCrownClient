@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+    <link href="../datacrow_help.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <h1>Grouping pane</h1>
+
+    The grouping pane allows items to be grouped. Two levels of grouping are supported. This allows you to group on, for example, year and category.
+    You can disable the grouping pane from the view menu or by pressing the "F10" key.
+
+
+    <h2>Default</h2>
+    The default tree allows grouping by field information. This grouping is used the most as it allows you to group
+    on year, category or any other field that is available in the module you are working in. You can group on multiple
+    fields, creating a levelled structure. In the example below the software items are grouped on container, category and
+    year. How you can group on fields is explained in the next paragraph.
+
+    <br><br><img src="./images/view_groupingpane.jpg" alt="" border="0">
+
+    <h3>Selecting fields</h3>
+    From the "group by" menu you can select the field(s) on which the items should be grouped. 
+    You can group on as many fields as you like.
+    
+    <br><br><img src="./images/groupby.png" alt="" border="0"><br><br>
+    
+    On the left hand side you find all the fields on which you can group. On the right hand side all fields
+    are shown on which the overview is currently grouped. <br><br>
+    Double click on a field to remove it from or to move a field to move it from the 'Available Fields' list to the 
+    'Selected Fields' list, or vice versa.<br><br>
+    Additionally you can change the group layering; if you want to group on 'Categories' first, click the field once 
+    to select it and use the green arrow icons to move it all the way to the top. 
+    <br>
+    Press Apply to activate the selected grouping.
+
+    <h3>Expand or Collapse the tree (nodes)</h3>
+    Select "expand all" from the "edit" menu to quickly expand all nodes of the tree. The "collapse all" menu option will collapse (fold) every node in the tree.
+
+    <h2>Containers</h2>
+	The containers tree is only shown in the Container module. It offers the same options as the default tree. 
+    Containers can have a hierarchy. This is established by setting a parent container. This way you can set up a structure
+    where you have numbered book cases, and assign this book case as a parent to the book shelves. Just an example, you can set up
+    any structure you like! <br><br>
+    As you might have noticed the container tree has a view menu. The following options are available:
+
+    <table cellspacing="2" cellpadding="2" border="0">
+    	<tr><td>-</td>
+        <td><b>Flat View.</b> 
+        Shows all containers in a flat tree, ignoring the hierarchy of the containers.            
+         </td></tr>
+    	<tr><td>-</td>
+        <td><b>Hierarchical View.</b> 
+        Shows all containers with their parent-child relationships.            
+        </td></tr>  
+        <tr><td>-</td>
+        <td><b>View Containers.</b> 
+        When clicking on a container in the tree view load the container in the overview.            
+        </td></tr>
+        <tr><td>-</td>
+        <td><b>View Items.</b> 
+        When clicking on a container in the tree view load the items assigned to this container in the overview.            
+        </td></tr>          
+    </table>
+    
+    <h2>File Structure</h2>
+    This tree represents the file structure of the items. This is representation of the directory structure and is only available for
+    modules where the items can have a file assigned to them (such as a movie which can point to an avi file). 
+    Items not having a file linked will be excluded from this structure as well.<br>
+    The icon on the file indicates whether the file exists. In the example below you can see that file "fieldsettings.png" can be found and the file "fieldsettings_small.png" 
+    cannot be located.
+
+    <br><br><img src="./images/view_groupingpane_files.jpg" alt="" border="0">
+
+
+</body>
+</html>

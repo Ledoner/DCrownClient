@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+    <link href="../datacrow_help.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+	<h1>Iniciar a aplica&ccedil;&atilde;o</h1>
+    
+    Obviamente que conseguiu iniciar o Data Crow, sen&atilde;o n&atilde;o estaria aqui, a ler o ficheiro de ajuda. 
+	Contudo, h&aacute; algumas op&ccedil;&otilde;es de arranque que podem ser ben&eacute;ficas para si.
+    
+    
+    <h2>Mem&oacute;ria dispon&iacute;vel</h2>
+    Ou iniciou o Data Crow usando o ficheiro &quot;datacrow.exe&quot; ou est&aacute; a usar o comando Java (direta ou indiretamente) "Java -jar datacrow.jar". 
+	Primeiro que tudo, o Java (n&atilde;o o Data Crow) vai sempre limitar a quantidade de mem&oacute;ria dispon&iacute;vel para o. Se receber 
+	erros OutOfMemoryErrors, avise-me, mas tente tamb&eacute;m atribuir mais mem&oacute;ria ao Data Crow desta forma: <br>
+    <b>exemplo:</b> <i>Java -Xmx512m -jar datacrow.jar</i>
+    
+    <h2>Usando m&uacute;ltiplas instala&ccedil;&otilde;es/ambientes</h2>
+    Se usa m&uacute;ltiplas instala&ccedil;&otilde;es do Data Crow tem v&aacute;rias escolhas a fazer:<br>
+    <table cellspacing="2" cellpadding="2" border="0">
+    	<tr><td>-</td>
+    		<td>Defina uma pasta de utilizador numa partilha de rede. Cada uma das instala&ccedil;&otilde;es do Data Crow vai
+             apontar para esta pasta. Isto é estabelecido selecionando a mesma pasta de utilizador em todas as instalações do Data Crow.
+             </td></tr>
+    	<tr><td>-</td>
+    		<td>No caso de correr v&aacute;rias inst&acirc;ncias do Data Crow numa s&oacute; m&aacute;quina, pode usar a mesma pasta de utilizador 
+			(partilhando as mesmas defini&ccedil;&otilde;es e dados) ou atribuir uma pasta de utilizador diferente a cada instala&ccedil;&atilde;o 
+			(par&acirc;metro -userdir). 
+            </td></tr>
+    	<tr><td>-</td>
+    		<td>
+            Al&eacute;m do acima descrito, pode partilhar a pasta de utilizador entre as v&aacute;rias instala&ccedil;&otilde;es mas for&ccedil;&aacute;-las 
+			a usar uma base de dados diferente por instala&ccedil;&atilde;o (par&acirc;mentro -db).
+            </td></tr>
+	</table>
+    Os par&acirc;metros requeridos s&atilde;o explicados no pr&oacute;ximo par&aacute;grafo.
+    
+    <h2>Par&acirc;metros de arranque</h2>
+    Cada um dos par&acirc;metros listados abaixo pode ser fornecido ao iniciar o ficheiro datacrow.exe file ou ao usar o comando Java para 
+	iniciar o Data Crow.
+	
+	<h3>Usar uma base de dados diferente</h3>
+    Por predefini&ccedil;&atilde;o, o Data Crow usa uma base de dados chamada &quot;dc&quot;.<br>
+	Para usar uma base de dados diferente (para testes, por exemplo) pode usar o par&acirc;metro seguinte: 
+    -db:&lt;database name&gt;. <br>
+    <b>Exemplo:</b> <i>Java -Xmx512m -jar datacrow.jar -db:dc_new</i>
+    
+    <h3>Especificar a pasta de utilizador</h3>
+     
+    Use este par&acirc;metro para especificar uma determinada pasta de utilizador. Pode iniciar m&uacute;ltiplas inst&acirc;ncias do
+    Data Crow usando este par&acirc;metro. Adicionalmente, o caminho de utilizador selecionado n&atilde;o ser&aacute; armazenado no ficheiro
+    datacrow.properties. Par&acirc;metro: -userdir:&lt;pasta utilizador&gt;<br>
+    Exemplo: <i>Java -Xmx512m -jar datacrow.jar -userdir:C:\Data Crow\Dados</i><br>
+    Tamb&eacute;m pode tornar o caminho relativo &agrave; pasta de instala&ccedil;&atilde;o do Data Crow fornecendo o caminho como
+    './nome da pasta'.<br> 
+    <b>Exemplo:</b> <i>-userdir:./dados</i> 
+    
+    
+	<h3>Especificar a pasta de instala&ccedil;&atilde;o</h3>
+    No caso de o Data Crow n&atilde;o conseguir encontrar a pasta de instala&ccedil;&atilde;o, pode especific&aacute;-la manualmente.<br>
+    Pode acontecer noutras plataformas que n&atilde;o Windows. Par&acirc;metro: -dir:&lt;caminho da instala&ccedil;&atilde;o&gt;<br>
+    <b>Exemplo:</b> <i>Java -Xmx512m -jar datacrow.jar -dir:/utilizador/inicial/datacrow</i>
+    
+    <h3>Iniciar o servidor Web</h3>
+    Pode iniciar o servidor Web sem abrir a aplica&ccedil;&atilde;o principal usando o par&acirc;metro -webserver.
+    Este par&acirc;metro pode ser combinado com o par&acirc;metro de autoriza&ccedil;&otilde;es para contornar os ecr&atilde;s iniciais 
+    (como o ecr&atilde; inicial e o di&aacute;logo de in&iacute;cio de sess&atilde;o): 
+    -webserver -credentials <br>
+    <b>Exemplo:</b> <i>Java -Xmx512m -jar datacrow.jar -webserver -credentials:eu/12345</i>
+        
+    <h3>Especificar as autoriza&ccedil;&otilde;es de in&iacute;cio de sess&atilde;o</h3>
+    Como indicado acima, esta op&ccedil;&atilde;o pode ser usada para contornar o di&aacute;logo de in&iacute;cio de sess&atilde;o. 
+	S&oacute; &eacute; realmente l&oacute;gico utiliz&aacute;-lo combinado com o comando webserver.
+    Par&acirc;metro: -credentials:utilizador/palavrapasse<br>
+    <b>Exemplo:</b> <i>Java -Xmx512m -jar datacrow.jar -credentials:eu/12345</i>
+
+    <h3>Informa&ccedil;&atilde;o adicional para a sess&atilde;o (debug)</h3>
+    Anexar -debug ao comando de arranque do Data Crow para registar informa&ccedil;&atilde;o de erros. Par&acirc;metro: -debug<br>
+    <b>Exemplo:</b> <i>Java -Xmx512m -jar datacrow.jar -debug</i>
+
+    <h3>Ocultar o ecr&atilde; inicial no arranque</h3>
+    Para ocultar o ecr&atilde; inicial no arranque do Data Crow pode fornecer o par&acirc;metro nosplash. Par&acirc;metro: -nosplash<br>
+    <b>Exemplo:</b> <i>Java -Xmx512m -jar datacrow.jar -nosplash</i>    
+    
+    <h3>Limpar todas as defini&ccedil;&otilde;es</h3>
+    Para repor o Data Crow nas defini&ccedil;&otilde;es originais forne&ccedil;a o seguinte par&acirc;metro: -clearsettings<br>
+    <b>Exemplo:</b> <i>Java -Xmx512m -jar datacrow.jar -clearsettings</i>        
+    
+</body>
+</html>
+
+
+

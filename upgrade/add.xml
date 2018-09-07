@@ -1,0 +1,36 @@
+<modules>
+    <module>
+        <module-index>50</module-index>
+        <module-jar>software.jar</module-jar>
+        <fields>
+            <field>
+                <index>22</index>
+                <name>Cooperative Multiplayer</name>
+                <database-column-name>CooperativeMultiplayer</database-column-name>
+                <ui-only>false</ui-only>
+                <enabled>true</enabled>
+                <readonly>false</readonly>
+                <searchable>true</searchable>
+                <maximum-length>0</maximum-length>
+                <field-type>3</field-type>
+                <module-reference>0</module-reference>
+                <value-type>3</value-type>
+                <overwritable>true</overwritable>
+            </field>
+            <field>
+                <index>23</index>
+                <name>Multiplayer Game</name>
+                <database-column-name>MultiplayerGame</database-column-name>
+                <ui-only>false</ui-only>
+                <enabled>true</enabled>
+                <readonly>false</readonly>
+                <searchable>true</searchable>
+                <maximum-length>0</maximum-length>
+                <field-type>3</field-type>
+                <module-reference>0</module-reference>
+                <value-type>3</value-type>
+                <overwritable>true</overwritable>
+            </field>
+        </fields>
+    </module>
+</modules>

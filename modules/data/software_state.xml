@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data-crow-objects xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="software_state.xsd">
+    <state>
+        <item>States</item>
+        <alternative-names></alternative-names>
+        <created>2009-10-17</created>
+        <id>101783988236993</id>
+        <icon>R0lGODlhDgAMALMPAAAAAP9mZswzM/8zM8xmZv8zZrwAAAAYAJkAAMxmM/9mM8wAM8wzAAAAEOcAAAAAACH5BAEAAA8ALAAAAAAOAAwAAARFEMj53rwhZ6kHAVYgCAEyiCJYAcFJksNRzSwcJM2ss0nx6btAQSFQAWuogXHVEpFSNBTBgShkFiCWS3kwCBgCw4ViGUcAADs=</icon>
+        <item>States</item>
+        <label>Lost</label>
+        <modified></modified>
+        <name>Lost</name>
+    </state>
+    <state>
+        <item>States</item>
+        <alternative-names></alternative-names>
+        <created>2009-10-17</created>
+        <id>101743840885689</id>
+        <icon>R0lGODlhDgAQALMPAAAAAMzMzJmZmcwzM60AAOfn58xmZu/378xmmf+ZmcwzZpkAM/+ZzAAYAMwAMwAAACH5BAEAAA8ALAAAAAAOABAAAARi8MlJG50NTDA0BUUBjAPSbY4RckN5sooCEEQ3PsARGsayjIeABhDQGRAJHiMgxAkEhkQixEg2Ac9jsRAwDK7PgULADAwIYEHtyaSlaeQ2wTNSE9iB+WV0L3suOFhNgB9/ExEAOw==</icon>
+        <item>States</item>
+        <label>Unused</label>
+        <modified></modified>
+        <name>Unused</name>
+    </state>
+    <state>
+        <item>States</item>
+        <alternative-names></alternative-names>
+        <created>2009-10-17</created>
+        <id>101785418701109</id>
+        <icon>R0lGODlhDwAPALMLAAAAAADMmQDMZgCZZgD/mRAAADPMmTOZZjPMZgCZmTOZmQAAAAAAAAAAAAAAAAAAACH5BAEAAAsALAAAAAAPAA8AAARMcMlJF7g1gyACyBRABB4oiVxhnsH4mRshqCc2beQLDLzOBTTLgHAYfAAdxMsiUJAEG0MpJBiQDtVpyDDokIKVnUHAXWoECePqVDBPIgA7</icon>
+        <item>States</item>
+        <label>Used</label>
+        <modified></modified>
+        <name>Used</name>
+    </state>
+    <state>
+        <item>States</item>
+        <alternative-names></alternative-names>
+        <created>2009-10-17</created>
+        <id>101785419854568</id>
+        <icon>R0lGODlhDwAPALMAAAAAAACEAADGAITG/4T/hP///////////////////////////////////////4DA/yH5BAEAAA8ALAAAAAAPAA8AAARB8EkJap34WcLtpRwnCKEAgMSoqsGppWMgzy0Ye549hl0GBCsVwTX50Vgu3OaG4sEEtVeQFQVAZbEZEaf9ZDQ5TAQAOw==</icon>
+        <item>States</item>
+        <label>Want to have</label>
+        <modified></modified>
+        <name>Want to have</name>
+    </state>
+</data-crow-objects>

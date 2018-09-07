@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data-crow-objects xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="editiontype.xsd">
+    <edition-type>
+        <item>Edition types</item>
+        <alternative-names></alternative-names>
+        <created>2009-10-17</created>
+        <id>101744746097306</id>
+        <icon></icon>
+        <item>Edition types</item>
+        <label>First Edition</label>
+        <modified></modified>
+        <name>First Edition</name>
+    </edition-type>
+</data-crow-objects>

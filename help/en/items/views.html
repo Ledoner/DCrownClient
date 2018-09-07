@@ -1,0 +1,121 @@
+<html>
+  <head>
+        <link href="../datacrow_help.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+     
+    <h1>Views</h1>
+    <i>Menu path: View</i><br><br>
+    
+    A view is an area in Data Crow where items are represented. Currently there are two views, a 
+    <a href="../items/views_tableview.html">Table View</a> and a <a href="./views_cardview.html">Card View</a>. 
+    The views available can differ per module. The Container module does not have the table view available
+    for example. Custom made modules will by default have both modules available to them.
+    
+    <h2>Toolbar</h2>
+    Above the view there is a <a href="../general/toolbar.html">toolbar</a> available. 
+    
+    <br><br><img src="../general/images/view_toolbar.jpg" alt="" border="0"><br><br>
+    
+    This toolbar holds shortcuts to actions which are performed often.
+    
+    <h2>Quick View</h2>
+    The <a href="../general/quickview.html">quick view</a> provides additional information on your item.
+    Click on an item in the view and its details will be displayed in the <a href="../general/quickview.html">quick view</a>.
+    
+    <h2>Grouping items</h2>
+    Grouping of items is managed using the <a href="../general/grouping_pane.html">grouping pane</a>. 
+    It allows you to represent the hierarchy of your items. So for example you can show the CD case the item is assigned 
+    to at the top of the structure. Then underneath that you can show the categories of the assigned items.
+    This is just one example out of the numerous possibilities
+    
+    <h2>Sorting</h2>
+    For information on sorting you need to go <a href="../items/sort.html">here</a>.
+    
+    <h2>Filtering</h2>
+    For information on filtering or searching you need to go <a href="../filters/filters.html">here</a>.
+    
+    <h2>Opening an item</h2>
+    Open an item by double-clicking on it, from within the view. Data Crow will open the 
+    <a href="../items/itemform.html">item form</a>. Data Crow either open the item in edit mode or read mode depending
+    on your <a href="../settings/general.html">settings</a>.
+    
+    <h2>Right-click menu</h2>
+    When you right-click on an item a menu appears with the following options:
+    
+    <table cellspacing="2" cellpadding="2" border="0">
+        <tr><td><img src="../general/images/tb_open.png" alt="" border="0"><br><br></td>
+        <td><a href="../items/itemform.html">Open &lt;name&gt; Item</a>. 
+        The Open &lt;name&gt; Item menu option (the &lt;name&gt; will mention the item name, such as Movie in the Movie module) 
+        opens the currently selected item (in the overview) in the <a href="../items/itemform.html">item form</a>. 
+        The item information cannot be changed using this option, it will open the item read-only.        
+        </td></tr>
+        <tr><td><img src="../general/images/tb_open.png" alt="" border="0"></td>
+        <td><a href="../items/itemform.html">Edit &lt;name&gt; Item</a>.
+        The Open &lt;name&gt; Item menu option (the &lt;name&gt; will mention the item name, such as Movie in the Movie module) 
+        opens the currently selected item (in the overview) in the <a href="../items/itemform.html">item form</a>. 
+        The item form allows you to change the information on the item.
+        </td></tr>
+        <tr><td><img src="../general/images/tb_add.png" alt="" border="0"></td>
+        <td><a href="../items/itemform.html">Edit as New</a>. 
+        Creates a new item based on the selected item. The selected item is used as a template. The <a href="../items/itemform.html">item form</a>
+        is opened and filled with the information of the selected item. After saving and closing the item form you will have
+        added a new item to Data Crow.
+        </td></tr>
+        <tr><td><img src="../general/images/tb_delete.png" alt="" border="0"></td>
+        <td><a href="../items/views.html">Delete</a>.
+        Deletes all selected items from the database. This cannot be reverted (only by restoring a backup). 
+        The system will ask for confirmation first.
+        </td></tr> 
+        <tr><td><img src="../general/images/tb_drivemanager.png" alt="" border="0"></td>
+        <td><a href="../tools/files.html">File</a>.
+        When you have a file linked to your item the files menu option will appear. With these options you can let 
+        Data Crow find your file in case it has been moved or renamed. It uses the <a href="../tools/drivemanager.html">Drive Manager</a> functionality.
+        </td></tr>         
+        <tr><td><img src="../general/images/tb_itemexport.png" alt="" border="0"></td>
+        <td><a href="../tools/item_export.html">Item Export Wizard</a>.
+        Starts the wizard to export the selected items to a CSV or XML file.
+        </td></tr>   
+        <tr><td><img src="../general/images/tb_report.png" alt="" border="0"></td>
+        <td><a href="../reports/reporting.html">Create Report</a>.
+        Create HTML or PDF report for the selected items. If this menu option is not available it means that no XSLT files (report templates) have been defined for 
+        your module. There is a manual on how to do this, which can be found on the Data Crow website.
+        </td></tr>
+        <tr><td><img src="../general/images/tb_sort.png" alt="" border="0"></td>
+        <td><a href="../items/sort.html">Sort</a>.
+        Sort / order the items. The sort order is stored; after restarting Data Crow the sort order will remain the same.
+        You can order the items in the view either ascending or descending and you can indicate multiple fields to sort on.
+        </td></tr>
+        <tr><td><img src="../general/images/tb_loan.png" alt="" border="0"></td>
+        <td><a href="../loan/loan.html">Loan Administration</a>. 
+        With this option you can administer the loan information for the selected item. 
+        </td></tr>
+        <tr><td><img src="../general/images/tb_administration.png" alt="" border="0"></td>
+        <td><a href="../items/administration.html">Administration</a>. 
+        Most modules make use of drop downs or multi-reference fields. An example is the state field for 
+        software items. 
+        This state field has a default set of values. You can modify this list, completely. The administration
+        of these items (we call them property items, part of property modules) can be maintained here.
+        </td></tr>
+        <tr><td><img src="../general/images/tb_settings.png" alt="" border="0"></td>
+        <td><a href="../settings/cardview.html">View Settings</a>. 
+        To modify the current view, such as the colors and the information to be shown, you have to use the View Settings. 
+        The settings differ slightly between the <a href="../settings/cardview.html">Card View</a> and the <a href="../settings/tableview.html">Table View</a>.
+        </td></tr>
+        <tr><td><img src="../general/images/tb_fileimport.png" alt="" border="0"></td>
+        <td><a href="#">Read File Information</a>. 
+        Extracts information from the selected file and adds the information to the selected item. 
+        The item will from then on be linked with the file. To import items based on the file information you can use the 
+        <a href="../tools/fileinformationimport.html">File Import</a> utility.
+        </td></tr>
+        <tr><td><img src="../general/images/tb_updateall.png" alt="" border="0"></td>
+        <td><a href="../tools/update_all.html">Update All</a>. 
+        Updates all of the selected items. This is a simple, but powerful, tools applying manually entered values to multiple items at once.
+        </td></tr>  
+        <tr><td><img src="../general/images/tb_title_rewriter.png" alt="" border="0"></td>
+        <td><a href="../tools/findreplace.html">Find &amp; Replace</a>. 
+        Replace one value with another value within text fields. It will show you a preview first (luckily) before it is applied on your selected items.
+        </td></tr>        
+    </table>
+  </body>
+</html>

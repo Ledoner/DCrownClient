@@ -1,0 +1,74 @@
+<html>
+  <head>
+        <link href="../datacrow_help.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>Security</h1>
+    <i>Module Bar &gt; Users</i><br><br>
+
+    The Security is arranged in the Users module.
+       
+    <br><br><img src="./images/security_module.png" alt="" border="0"><br><br>
+
+	By default any user starting your installation of Data Crow will see all the information you
+	entered. Any user could even change or delete your items.<br>
+	By creating users you determine which users are allowed access and what they are allowed to do. 
+	Users can be created in the user module (this module is only available for administrators).
+	This module functions like any other module. You can search for, create, modify and remove users.
+	<br><br>
+	
+	<h2>Default situation</h2>
+	By default one administrator user is present within in Data Crow. This user has the default login name of "sa".
+	No password has been set, which enables Data Crow to log in automatically. This is the default situation.
+	
+	<h2>Creating a user</h2>
+	You can create a user by going to the user module and selecting "create new". The <a href="../items/itemform.html">item form</a> is opened
+	and you can start filling the information. 
+	
+	<br><br><img src="./images/security_user.png" alt="" border="0"><br><br>
+	
+	The most important information to enter is the "Login Name". 
+	The login name is used by the user to log into Data Crow. Once saved the login name cannot be changed!<br>
+	The "Admin" property (unchecked by default) is very important. If checked, the user becomes an administrator
+	and will have all rights within Data Crow. It is recommended to only have one administrator.
+	
+	<h2>Administrators</h2>
+	Some operations are only allowed for administrators: <br>
+	
+    <table>
+        <tr><td>-</td>
+        <td>Removing / deleting items.</td></tr>
+        <tr><td>-</td>
+        <td>Changing the application settings.</td></tr>
+        <tr><td>-</td>
+        <td>User administration.</td></tr>        
+        <tr><td>-</td>
+        <td>Creating templates.</td></tr>   
+    </table>   	
+
+	<h2>Module permissions</h2>
+	In the Module Permission you can set the module and field access for the user. For each field you have the 
+	option to allow viewing or editing.
+	
+	<br><br><img src="./images/security_module_permissions.png" alt="" border="0"><br><br>
+	
+	By unchecking all rights the user will not be able to edit or
+	view the field and will be invisible to this user. 
+	<br><br>
+	To deny access to the module you have to remove the rights from all of its fields. 
+	<br><br>
+	Using the edit menu you can quickly set all field to read only ("Allow viewing of all fields") 
+	or allow editing of all fields ("Allow editing of all fields"). To deny access to the module (by removing
+	all right from all fields) you can use the "Deny Module Access" menu option.
+	
+	<h2>Plugin permissions</h2>
+	Some plugins are only available to the users after he has been authorized access to these plugins. In the 
+	"Plugin Permissions" tab you can either grant or deny the user access by checking or unchecking the "Authorized" 
+	field.
+	
+	<h2>Changing the password</h2>
+	<i>Menu path: User &gt; Change Password</i><br><br>
+	By default the password for each users has not been set. From the "user" menu you can change your password ("Change password").
+	First enter your old password (or leave empty if no password has been set) then enter your new password twice.
+  </body>
+</html>

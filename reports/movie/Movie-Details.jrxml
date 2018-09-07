@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version last-->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Movie-Details" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="e13637a4-1d59-4355-bb7f-41d0043b3ee8">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Movie-XML"/>
+	<queryString language="xPath">
+		<![CDATA[/data-crow-objects/movie]]>
+	</queryString>
+	<field name="item" class="java.lang.String">
+		<fieldDescription><![CDATA[item]]></fieldDescription>
+	</field>
+	<field name="actors" class="java.lang.String">
+		<fieldDescription><![CDATA[actors]]></fieldDescription>
+	</field>
+	<field name="actors-list" class="java.lang.String">
+		<fieldDescription><![CDATA[actors-list]]></fieldDescription>
+	</field>
+	<field name="actors_persist" class="java.lang.String">
+		<fieldDescription><![CDATA[actors_persist]]></fieldDescription>
+	</field>
+	<field name="aspect-ratio" class="java.lang.String">
+		<fieldDescription><![CDATA[aspect-ratio]]></fieldDescription>
+	</field>
+	<field name="audio-bitrate" class="java.lang.String">
+		<fieldDescription><![CDATA[audio-bitrate]]></fieldDescription>
+	</field>
+	<field name="audio-channels" class="java.lang.String">
+		<fieldDescription><![CDATA[audio-channels]]></fieldDescription>
+	</field>
+	<field name="audio-codec" class="java.lang.String">
+		<fieldDescription><![CDATA[audio-codec]]></fieldDescription>
+	</field>
+	<field name="audio-languages" class="java.lang.String">
+		<fieldDescription><![CDATA[audio-languages]]></fieldDescription>
+	</field>
+	<field name="audio-languages-list" class="java.lang.String">
+		<fieldDescription><![CDATA[audio-languages-list]]></fieldDescription>
+	</field>
+	<field name="audio-languages_persist" class="java.lang.String">
+		<fieldDescription><![CDATA[audio-languages_persist]]></fieldDescription>
+	</field>
+	<field name="audio-sample-rate" class="java.lang.String">
+		<fieldDescription><![CDATA[audio-sample-rate]]></fieldDescription>
+	</field>
+	<field name="available" class="java.lang.String">
+		<fieldDescription><![CDATA[available]]></fieldDescription>
+	</field>
+	<field name="certification" class="java.lang.String">
+		<fieldDescription><![CDATA[certification]]></fieldDescription>
+	</field>
+	<field name="color" class="java.lang.String">
+		<fieldDescription><![CDATA[color]]></fieldDescription>
+	</field>
+	<field name="container" class="java.lang.String">
+		<fieldDescription><![CDATA[container]]></fieldDescription>
+	</field>
+	<field name="container-list" class="java.lang.String">
+		<fieldDescription><![CDATA[container-list]]></fieldDescription>
+	</field>
+	<field name="container_persist" class="java.lang.String">
+		<fieldDescription><![CDATA[container_persist]]></fieldDescription>
+	</field>
+	<field name="countries" class="java.lang.String">
+		<fieldDescription><![CDATA[countries]]></fieldDescription>
+	</field>
+	<field name="countries-list" class="java.lang.String">
+		<fieldDescription><![CDATA[countries-list]]></fieldDescription>
+	</field>
+	<field name="countries_persist" class="java.lang.String">
+		<fieldDescription><![CDATA[countries_persist]]></fieldDescription>
+	</field>
+	<field name="created" class="java.lang.String">
+		<fieldDescription><![CDATA[created]]></fieldDescription>
+	</field>
+	<field name="days" class="java.lang.String">
+		<fieldDescription><![CDATA[days]]></fieldDescription>
+	</field>
+	<field name="days-loaned" class="java.lang.String">
+		<fieldDescription><![CDATA[days-loaned]]></fieldDescription>
+	</field>
+	<field name="description" class="java.lang.String">
+		<fieldDescription><![CDATA[description]]></fieldDescription>
+	</field>
+	<field name="directors" class="java.lang.String">
+		<fieldDescription><![CDATA[directors]]></fieldDescription>
+	</field>
+	<field name="directors-list" class="java.lang.String">
+		<fieldDescription><![CDATA[directors-list]]></fieldDescription>
+	</field>
+	<field name="directors_persist" class="java.lang.String">
+		<fieldDescription><![CDATA[directors_persist]]></fieldDescription>
+	</field>
+	<field name="due-date" class="java.lang.String">
+		<fieldDescription><![CDATA[due-date]]></fieldDescription>
+	</field>
+	<field name="ean" class="java.lang.String">
+		<fieldDescription><![CDATA[ean]]></fieldDescription>
+	</field>
+	<field name="episode-nr" class="java.lang.String">
+		<fieldDescription><![CDATA[episode-nr]]></fieldDescription>
+	</field>
+	<field name="episode-name" class="java.lang.String">
+		<fieldDescription><![CDATA[episode-name]]></fieldDescription>
+	</field>
+	<field name="external-references" class="java.lang.String">
+		<fieldDescription><![CDATA[external-references]]></fieldDescription>
+	</field>
+	<field name="external-references-list" class="java.lang.String">
+		<fieldDescription><![CDATA[external-references-list]]></fieldDescription>
+	</field>
+	<field name="external-references_persist" class="java.lang.String">
+		<fieldDescription><![CDATA[external-references_persist]]></fieldDescription>
+	</field>
+	<field name="filehash" class="java.lang.String">
+		<fieldDescription><![CDATA[filehash]]></fieldDescription>
+	</field>
+	<field name="filehash-type" class="java.lang.String">
+		<fieldDescription><![CDATA[filehash-type]]></fieldDescription>
+	</field>
+	<field name="filename" class="java.lang.String">
+		<fieldDescription><![CDATA[filename]]></fieldDescription>
+	</field>
+	<field name="filesize" class="java.lang.String">
+		<fieldDescription><![CDATA[filesize]]></fieldDescription>
+	</field>
+	<field name="fps" class="java.lang.String">
+		<fieldDescription><![CDATA[fps]]></fieldDescription>
+	</field>
+	<field name="frames" class="java.lang.String">
+		<fieldDescription><![CDATA[frames]]></fieldDescription>
+	</field>
+	<field name="genres" class="java.lang.String">
+		<fieldDescription><![CDATA[genres]]></fieldDescription>
+	</field>
+	<field name="genres-list" class="java.lang.String">
+		<fieldDescription><![CDATA[genres-list]]></fieldDescription>
+	</field>
+	<field name="genres_persist" class="java.lang.String">
+		<fieldDescription><![CDATA[genres_persist]]></fieldDescription>
+	</field>
+	<field name="height" class="java.lang.String">
+		<fieldDescription><![CDATA[height]]></fieldDescription>
+	</field>
+	<field name="id" class="java.lang.String">
+		<fieldDescription><![CDATA[id]]></fieldDescription>
+	</field>
+	<field name="item-value" class="java.lang.String">
+		<fieldDescription><![CDATA[item-value]]></fieldDescription>
+	</field>
+	<field name="label" class="java.lang.String">
+		<fieldDescription><![CDATA[label]]></fieldDescription>
+	</field>
+	<field name="languages" class="java.lang.String">
+		<fieldDescription><![CDATA[languages]]></fieldDescription>
+	</field>
+	<field name="languages-list" class="java.lang.String">
+		<fieldDescription><![CDATA[languages-list]]></fieldDescription>
+	</field>
+	<field name="languages_persist" class="java.lang.String">
+		<fieldDescription><![CDATA[languages_persist]]></fieldDescription>
+	</field>
+	<field name="lend-by" class="java.lang.String">
+		<fieldDescription><![CDATA[lend-by]]></fieldDescription>
+	</field>
+	<field name="loan-end-date" class="java.lang.String">
+		<fieldDescription><![CDATA[loan-end-date]]></fieldDescription>
+	</field>
+	<field name="loan-start-date" class="java.lang.String">
+		<fieldDescription><![CDATA[loan-start-date]]></fieldDescription>
+	</field>
+	<field name="loan-status" class="java.lang.String">
+		<fieldDescription><![CDATA[loan-status]]></fieldDescription>
+	</field>
+	<field name="modified" class="java.lang.String">
+		<fieldDescription><![CDATA[modified]]></fieldDescription>
+	</field>
+	<field name="picture-back" class="java.lang.String">
+		<fieldDescription><![CDATA[picture-back]]></fieldDescription>
+	</field>
+	<field name="picture-cd" class="java.lang.String">
+		<fieldDescription><![CDATA[picture-cd]]></fieldDescription>
+	</field>
+	<field name="picture-front" class="java.lang.String">
+		<fieldDescription><![CDATA[picture-front]]></fieldDescription>
+	</field>
+	<field name="playlength" class="java.lang.String">
+		<fieldDescription><![CDATA[playlength]]></fieldDescription>
+	</field>
+	<field name="rating" class="java.lang.String">
+		<fieldDescription><![CDATA[rating]]></fieldDescription>
+	</field>
+	<field name="season" class="java.lang.String">
+		<fieldDescription><![CDATA[season]]></fieldDescription>
+	</field>
+	<field name="series" class="java.lang.String">
+		<fieldDescription><![CDATA[series]]></fieldDescription>
+	</field>
+	<field name="service" class="java.lang.String">
+		<fieldDescription><![CDATA[service]]></fieldDescription>
+	</field>
+	<field name="service-url" class="java.lang.String">
+		<fieldDescription><![CDATA[service-url]]></fieldDescription>
+	</field>
+	<field name="state" class="java.lang.String">
+		<fieldDescription><![CDATA[state]]></fieldDescription>
+	</field>
+	<field name="storage-medium" class="java.lang.String">
+		<fieldDescription><![CDATA[storage-medium]]></fieldDescription>
+	</field>
+	<field name="subtitle-languages" class="java.lang.String">
+		<fieldDescription><![CDATA[subtitle-languages]]></fieldDescription>
+	</field>
+	<field name="subtitle-languages-list" class="java.lang.String">
+		<fieldDescription><![CDATA[subtitle-languages-list]]></fieldDescription>
+	</field>
+	<field name="subtitle-languages_persist" class="java.lang.String">
+		<fieldDescription><![CDATA[subtitle-languages_persist]]></fieldDescription>
+	</field>
+	<field name="tags" class="java.lang.String">
+		<fieldDescription><![CDATA[tags]]></fieldDescription>
+	</field>
+	<field name="tags-list" class="java.lang.String">
+		<fieldDescription><![CDATA[tags-list]]></fieldDescription>
+	</field>
+	<field name="tags_persist" class="java.lang.String">
+		<fieldDescription><![CDATA[tags_persist]]></fieldDescription>
+	</field>
+	<field name="title" class="java.lang.String">
+		<fieldDescription><![CDATA[title]]></fieldDescription>
+	</field>
+	<field name="title-local" class="java.lang.String">
+		<fieldDescription><![CDATA[title-local]]></fieldDescription>
+	</field>
+	<field name="user-long-text-field" class="java.lang.String">
+		<fieldDescription><![CDATA[user-long-text-field]]></fieldDescription>
+	</field>
+	<field name="user-numeric-field-1" class="java.lang.String">
+		<fieldDescription><![CDATA[user-numeric-field-1]]></fieldDescription>
+	</field>
+	<field name="user-numeric-field-2" class="java.lang.String">
+		<fieldDescription><![CDATA[user-numeric-field-2]]></fieldDescription>
+	</field>
+	<field name="user-short-text-field-1" class="java.lang.String">
+		<fieldDescription><![CDATA[user-short-text-field-1]]></fieldDescription>
+	</field>
+	<field name="user-short-text-field-2" class="java.lang.String">
+		<fieldDescription><![CDATA[user-short-text-field-2]]></fieldDescription>
+	</field>
+	<field name="video-bitrate" class="java.lang.String">
+		<fieldDescription><![CDATA[video-bitrate]]></fieldDescription>
+	</field>
+	<field name="video-codec" class="java.lang.String">
+		<fieldDescription><![CDATA[video-codec]]></fieldDescription>
+	</field>
+	<field name="webpage" class="java.lang.String">
+		<fieldDescription><![CDATA[webpage]]></fieldDescription>
+	</field>
+	<field name="width" class="java.lang.String">
+		<fieldDescription><![CDATA[width]]></fieldDescription>
+	</field>
+	<field name="year" class="java.lang.String">
+		<fieldDescription><![CDATA[year]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="439" splitType="Stretch">
+			<textField>
+				<reportElement key="" mode="Opaque" x="0" y="-10" width="570" height="30" forecolor="#FFFFFF" backcolor="#030303" uuid="4fa2b770-4ba9-4e1d-ab09-c1ae1e88c026"/>
+				<box padding="0" topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
+					<topPen lineColor="#A39B9B"/>
+					<leftPen lineColor="#A39B9B"/>
+					<bottomPen lineColor="#A39B9B"/>
+					<rightPen lineColor="#A39B9B"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="14" isBold="true"/>
+					<paragraph leftIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{title}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="-1" y="230" width="560" height="16" isRemoveLineWhenBlank="true" uuid="bd21e9fe-a37d-423a-8c11-670d03a31afd"/>
+				<textFieldExpression><![CDATA[$F{description}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="280" y="130" width="280" height="20" uuid="fd4b8e60-99db-4fe3-8ab0-2125d52596a9"/>
+				<textFieldExpression><![CDATA[$F{tags-list}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement key="" x="180" y="130" width="80" height="20" uuid="4c6e64a0-23e7-4d55-8bf9-f70126a64c61"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Tags]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="280" y="70" width="280" height="20" uuid="4023c752-d937-40a0-8b9c-2ec9bc50159d"/>
+				<textFieldExpression><![CDATA[$F{genres-list}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement key="" x="180" y="70" width="80" height="20" uuid="3f10bdeb-e334-4a90-9f39-89582fe9cf6d"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Genres]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="280" y="90" width="280" height="20" uuid="da4f4cb0-fbba-4566-8628-f547421dc13c"/>
+				<textFieldExpression><![CDATA[$F{rating}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement key="" x="180" y="90" width="80" height="20" uuid="3ab2aa06-ca28-4cd0-9f19-b850f0fcb412"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Rating]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="280" y="30" width="279" height="20" uuid="3f4489dd-47fe-4045-90bb-d6a0f4ac0180"/>
+				<textFieldExpression><![CDATA[$F{year}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement key="" positionType="Float" x="180" y="30" width="80" height="20" uuid="d3df1807-8bcf-44bd-84d7-a037503afb24"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Year]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="280" y="110" width="280" height="20" uuid="93ae3d6e-cb2e-47d1-81b8-f7d9f9de0d2c"/>
+				<textFieldExpression><![CDATA[$F{webpage}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement key="" positionType="Float" x="180" y="110" width="80" height="20" uuid="2a559f7e-29c9-47f2-942c-bf225950059c"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Webpage]]></text>
+			</staticText>
+			<image>
+				<reportElement positionType="Float" x="1" y="270" width="180" height="150" uuid="21c6d235-2a96-4110-8d79-5feb5b749321"/>
+				<imageExpression><![CDATA[$F{picture-back}]]></imageExpression>
+			</image>
+			<image>
+				<reportElement positionType="Float" x="192" y="270" width="180" height="150" uuid="7001366f-1e8c-4a55-9d0c-57d1258d4241"/>
+				<imageExpression><![CDATA[$F{picture-cd}]]></imageExpression>
+			</image>
+			<textField isBlankWhenNull="true">
+				<reportElement x="280" y="150" width="279" height="20" uuid="70cce6be-c944-4997-8485-4e212eb36bd1"/>
+				<textFieldExpression><![CDATA[$F{item-value}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="180" y="150" width="80" height="20" uuid="b8bdbebb-33fb-4b43-8934-3ae4ae905669"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Value]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="0" y="213" width="559" height="17" uuid="273e64f4-ec3f-47a3-a02c-4ed523d5c7fc"/>
+				<textFieldExpression><![CDATA[$F{actors-list}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="1" y="200" width="100" height="13" uuid="4e39f9a6-b4e5-439a-951c-160d5a135a54"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Actors]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="280" y="170" width="280" height="20" uuid="0217d095-9e63-4660-8392-4fd5177d953d"/>
+				<textFieldExpression><![CDATA[$F{directors}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="180" y="170" width="80" height="20" uuid="f6a5d819-7d34-470f-bf3f-15f4528a87e0"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Directors]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="280" y="50" width="280" height="20" uuid="0336901f-0925-4942-a9f5-0f965aa9dc24"/>
+				<textFieldExpression><![CDATA[$F{playlength}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="180" y="50" width="80" height="20" uuid="a4c14de0-3f9e-42a6-b32e-2b2f84774f36"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Playlength]]></text>
+			</staticText>
+			<image>
+				<reportElement x="0" y="30" width="170" height="160" uuid="d19d5a03-c04d-45f4-a1f1-58bc046a2c63"/>
+				<imageExpression><![CDATA[$F{picture-front}]]></imageExpression>
+			</image>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="54" splitType="Stretch">
+			<textField>
+				<reportElement x="180" y="20" width="100" height="20" uuid="d37bbb64-925d-4702-8f6f-3356553f8926"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Page " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="280" y="20" width="100" height="20" uuid="6afae056-0e03-44f3-bc6b-459d481a8823"/>
+				<textElement textAlignment="Left"/>
+				<textFieldExpression><![CDATA[" of " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>

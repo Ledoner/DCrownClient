@@ -1,0 +1,57 @@
+<html>
+  <head>
+        <link href="../datacrow_help.css" rel="stylesheet" type="text/css">
+  </head>
+
+<body>
+	<h1>Gestor de unidades</h1>
+	<i>Caminho de menu: Ferramentas &gt; Gestor de unidades</i><br><br>
+
+	H&aacute; m&oacute;dulos que cont&ecirc;m itens representando um ficheiro (ou uma pasta), tais como &Aacute;lbuns de m&uacute;sica ou Imagens.
+	O Gestor de unidades garante que a informa&ccedil;&atilde;o destes itens se mant&eacute;m atualizada com a do ficheiro no seu disco, CD 
+	ou outro tipo de unidade. Usando esta ferramenta, n&atilde;o tem de se preocupar em atualizar o Data Crow ao mover um ficheiro para outro 
+	disco ou pasta. O Data Crow atualiza automaticamente o item que representa o ficheiro.
+	
+	<br><br><img src="./images/drivemanager_pt.png" /><br><br>
+	
+	H&aacute; tr&ecirc;s tarefas dispon&iacute;veis para este objetivo. Todos s&atilde;o executados em segundo plano, significando que pode 
+	continuar a trabalhar com o Data Crow durante a execu&ccedil;&atilde;o das tarefas. 
+
+	<h2>Pesquisador de unidades</h2>
+	O Pesquisador de unidades pesquisa unidades para os ficheiros. Armazena a informa&ccedil;&atilde;o do ficheiro numa pasta tempor&aacute;ria do
+	Data Crow (&lt;pasta do utilizador&gt;/temp). O Sincronizador de ficheiros usa esta informa&ccedil;&atilde;o para executar a sua tarefa.
+	
+	<h3>Unidades a pesquisar</h3>
+	Aqui pode selecionar quais as unidades que quer incluir na pesquisa. <br><br>
+	<b>Nota:</b> se n&atilde;o houver unidades vis&iacute;veis, pode indicar pastas para serem tratadas como unidades.
+	Leia mais sobre isto <a href="../settings/directoriesasdrives.html">aqui</a>.
+	
+	<h3>Pastas exclu&iacute;das</h3>
+    Se tem a certeza que uma determinada pasta n&atilde;o cont&eacute;m informa&ccedil;&atilde;o relevante para o Data Crow, pode exclui-la 
+	da pesquisa. Para utilizadores Windows, por exemplo, faria sentido excluir a pasta de instala&ccedil;&atilde;o do Windows.
+    
+    <h2>Supervisor de unidades</h2>
+    Esta &eacute; uma tarefa muito simples, que procura por unidades virtuais, montadas ou desmontadas.
+    
+    <br><br><img src="./images/drivemanager_poller_pt.png" /><br><br>
+    
+	Quando uma nova unidade ou disco s&atilde;o montados, &eacute; iniciada uma pesquisa de unidade (veja o par&aacute;grafo anterior) e o Data Crow
+	vai utilizar a informa&ccedil;&atilde;o desta pesquisa.
+
+	<h2>Sincronizador de unidades</h2>
+	Sincroniza a informa&ccedil;&atilde;o dos itens no Data Crow com a informa&ccedil;&atilde;o de ficheiros nas suas unidades. 
+	
+	<br><br><img src="./images/drivemanager_synch_pt.png" /><br><br>
+	
+	Quando, por exemplo, um ficheiro foi movido para outra unidade ou pasta, o Sincronizador de ficheiros atualiza automaticamente o item
+	que representa o ficheiro (um livro, um programa, etc.).
+	
+	<h3>Precis&atilde;o da compara&ccedil;&atilde;o</h3>
+	Indica que parte da informa&ccedil;&atilde;o do item &eacute; usada para localizar o ficheiro. Por predefini&ccedil;&atilde;o, a precis&atilde;o 
+	est&aacute; definida para o m&aacute;ximo, uma vez que &eacute; a forma mais segura de identificar o ficheiro.
+	Uma vez que a informa&ccedil;&atilde;o (como o hash do ficheiro, informa&ccedil;&atilde;o t&eacute;cnica, gerada e armazenada pelo Data Crow, 
+	para identificar precisamente um ficheiro) pode estar em falta, pode optar por comparar com "Nome de ficheiro" e "Tamanho de ficheiro" 
+	ou somente "Nome de ficheiro".
+    
+</body>
+</html>

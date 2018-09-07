@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data-crow-objects xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="aspectratio.xsd">
+    <aspect-ratio>
+        <item>Aspect ratios</item>
+        <alternative-names></alternative-names>
+        <created>2009-10-17</created>
+        <id>101755416704005</id>
+        <icon></icon>
+        <item>Aspect ratios</item>
+        <label>14:9</label>
+        <modified></modified>
+        <name>14:9</name>
+    </aspect-ratio>
+    <aspect-ratio>
+        <item>Aspect ratios</item>
+        <alternative-names></alternative-names>
+        <created>2009-10-17</created>
+        <id>101719137846695</id>
+        <icon></icon>
+        <item>Aspect ratios</item>
+        <label>16:9</label>
+        <modified></modified>
+        <name>16:9</name>
+    </aspect-ratio>
+    <aspect-ratio>
+        <item>Aspect ratios</item>
+        <alternative-names></alternative-names>
+        <created>2009-10-17</created>
+        <id>101717914238435</id>
+        <icon></icon>
+        <item>Aspect ratios</item>
+        <label>4:3</label>
+        <modified></modified>
+        <name>4:3</name>
+    </aspect-ratio>
+</data-crow-objects>

@@ -1,0 +1,62 @@
+<html>
+  <head>
+        <link href="../datacrow_help.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+
+    <h1>Relat&oacute;rios</h1>
+    <i>Caminho de menu: Ferramentas &gt; Criar relat&oacute;rio</i><br>
+    <i>ou: clique com o bot&atilde;o direito nos itens selecionados na vista e selecione Criar relat&oacute;rio</i><br><br>
+
+    Esta ferramenta cria relat&oacute;rios em formato PDF e HTML baseados nos itens da <a href="../items/views.html">vista</a>.
+    
+    <br><br><img src="./images/reporting_pt.png" alt="" border="0"><br><br>
+    
+    Para criar um relat&oacute;rio, selecione um formato (PDF ou HTML) e um tipo de relat&oacute;rio da lista pendente. Selecione um 
+	ficheiro destino e clique em "Executar" para come&ccedil;ar a gerar o relat&oacute;rio.
+
+    <br><br>
+
+    Note que a lista pendente com os tipos de relat&oacute;rios pode ser expandida com os seus pr&oacute;prios tipos. Os relat&oacute;rios
+	são ficheiros XSLT (XSL Transformation) portanto tem de conhecer a sintaxe antes de poder criar os seus relat&oacute;rios.
+
+    <br><br>
+
+    Uma boa p&aacute;gina para come&ccedil;ar: <a href="http://www.w3schools.com/xsl/">http://www.w3schools.com/xsl/</a>. 
+	Os campos que pode adicionar ao seu relat&oacute;rio est&atilde;o todos em &lt;pasta do data crow directory&gt;/reports/dictionary.txt 
+	(se este ficheiro n&atilde;o existir ou n&atilde;o tiver a certeza se est&aacute; atualizado, abra e feche o di&aacute;logo de 
+	relat&oacute;rios. Isto recria o ficheiro mencionado).
+
+    <br><br>
+
+    Depois de ter criado o ficheiro XSLT, coloque-o em &lt;pasta do data crow directory&gt;/reports/&lt;nome do m&oacute;dulo&gt; 
+	(ou em qualquer uma das suas subpastas).
+
+    <h2>Defini&ccedil;&otilde;es</h2>
+
+    <h3>Copiar imagens</h3>
+    Copia as imagens para uma subpasta na localiza&ccedil;&atilde;o onde o relat&oacute;rio &eacute; gravado.
+
+    <h3>Dimensionar imagem</h3>
+    Esta op&ccedil;&atilde;o s&oacute; est&aacute; ativa quando <b>Copiar imagens</b> estiver selecionada e permite aumentar ou 
+	reduzir o tamanho da imagem. Pode indicar as novas altura e largura nos campos correspondentes.
+
+    <h3>Comprimento m&aacute;ximo do texto</h3>
+    Limita o comprimento dos textos adicionados ao relat&oacute;rio.
+
+    <h2>Imprimir o relat&oacute;rio</h2>
+    O Data Crow n&atilde;o tem nenhuma funcionalidade para imprimir os relat&oacute;rios gerados. Para imprimir um ficheiro PDF 
+	encontre um visualizador PDF gratuito para a plataforma que utiliza. Os relat&oacute;rios HTML podem ser imprimidos usando o seu 
+	navegador Web favorito.
+
+    <h2>Exemplos de relat&oacute;rios</h2>
+
+    <img src="./images/report_list_example.JPG" alt="" border="0">
+
+    <br><br>
+
+    <img src="./images/report_card_example.JPG" alt="" border="0">
+
+  </body>
+</html>

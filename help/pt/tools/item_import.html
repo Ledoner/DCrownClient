@@ -1,0 +1,56 @@
+<html>
+  <head>
+        <link href="../datacrow_help.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+
+  <h1>Assistente Importar itens</h1>
+  <i>Caminho de menu: Ferramentas &gt; Assistente Importar itens</i><br><br>
+  
+  Este assistente permite-lhe importar itens a partir de um ficheiro externo. Os itens s&atilde;o importados diretamente para a base de dados.
+  Antes de iniciar o assistente, ter&aacute; de escolher o m&oacute;dulo para o qual quer importar itens.
+  <br><img src="./images/itemimport_choosemodule_pt.png"><br><br>
+
+  <h2>Formatos</h2>
+  Selecione o tipo de ficheiro que quer importar. Para ficheiros XML selecione <b>Importar ficheiros XML</b>. Para ficheiros de texto 
+  selecione <b>Importar ficheiros CSV</b>. Um ficheiro CSV v&aacute;lido cont&eacute;m um item por linha. Os valores de cada um dos 
+  campos s&atilde;o separados por um car&aacute;ter espec&iacute;fico.
+
+  <h2>Configura&ccedil;&atilde;o</h2>
+  Dependendo do formato escolhido, algumas das op&ccedil;&otilde;es de configura&ccedil;&atilde;o poder&atilde;o n&atilde;o estar dispon&iacute;veis.
+
+  <table cellspacing="2" cellpadding="2" border="0">
+    <tr><td>-</td>
+        <td><b>Conjunto de carateres</b>: 
+        selecione o conjunto de carateres ou a codifica&ccedil;&atilde;o. Na maioria dos casos, UTF-8 ser&aacute; suficiente. Caso apare&ccedil;am 
+		carateres estranhos numa cadeia, ou muitos pontos de interroga&ccedil;&atilde;o, provavelmente tem de escolher outro conjunto de carateres.
+        O Data Crow n&atilde;o consegue adivinhar a codifica&ccedil;&atilde;o do ficheiro a importar. Para saber qual &eacute; a 
+		codifica&ccedil;&atilde;o correta, aconselho consultar a documenta&ccedil;&atilde;o do programa que exportou o ficheiro. Note que as 
+		exporta&ccedil;&otilde;es XML do Data Crow s&atilde;o sempre feitas em UTF-8.</td></tr>
+    <tr><td>-</td>
+        <td><b>Separador de valores</b>: 
+        para importa&ccedil;&otilde;es de ficheiros CSV, tem de indicar qual o car&aacute;ter que separa os valores de cada campo. Defina o 
+		separador como "TAB", caso tenha sido esse o usado.</td></tr>
+    <tr><td>-</td>
+        <td><b>Tentar comparar itens importados</b>: 
+        se marcada, o Data Crow vai tentar comparar os itens, para encontrar poss&iacute;veis coincid&ecirc;ncias com itens existentes na base 
+		de dados. Se as encontrar, a informa&ccedil;&atilde;o dos dois itens ser&aacute; unida.</td></tr>        
+  </table><br>
+
+  <h2>Mapear campos de dados</h2>
+  
+  <br><img src="./images/itemimport_mapfields_pt.png"><br><br>
+  
+  No caso de uma importa&ccedil;&atilde;o de ficheiro CSV, ser-lhe-&aacute; pedido que mapeie os campos de dados originais para os campos do 
+  Data Crow. Este &eacute; um passo crucial na importa&ccedil;&atilde;o. Caso veja s&oacute; um campo, certifique-se que selecionou o separador 
+  de campos correto no passo anterior. Selecione o campo destino para cada um dos campos originais na tabela. O campo destino pode ser selecionado 
+  numa lista pendente.
+
+  <h2>Limita&ccedil;&otilde;es</h2>
+  
+  A importa&ccedil;&atilde;o CSV vai ignorar sempre a primeira linha, uma vez que espera que os nomes dos campos estejam nessa 
+  posi&ccedil;&atilde;o.
+
+  </body>
+</html>

@@ -1,0 +1,54 @@
+<html>
+  <head>
+        <link href="../datacrow_help.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>Administration of Property Items</h1>
+    <i>Menu Path &gt; Administration &gt; Maintain</i><br><br>
+    
+    The administration menu allows you to maintain the property items, such as categories, countries and states. 
+    The overview shows all the items in a listing, sorted alphabetically. You can edit an item by opening it.
+    
+    <br><br><img src="./images/administration.png" alt="" border="0"><br><br>
+
+    <h2>Filter</h2>
+    You can filter by typing in the text field located at the top of the screen. The items are filtered while you are typing.
+    It looks for items where the name starts with the entered value. Removing the entered text will cause all items to be shown.
+
+    <h2>Create Multiple</h2>
+    If you want to create multiple items at once, press the "Create Multiple" button.
+
+    <br><br><img src="./images/administration_createmultiple.png " alt="" border="0"><br><br>
+    
+    To add a row to this overview press the "Add" button. Click on the row and start typing.
+    Once you have entered information for all the lines you have added press the "Save" button.
+    Your items are created!  
+
+    <h2>Opening an item</h2>
+    Double-click on the item and it will open the <a href="../items/itemform.html">item form</a>. 
+    From here you can view and/or edit the item (depending on your privileges in the 
+    <a href="../security/security.html">security</a> and the <a href="../settings/general.html">general settings</a>). 
+    
+    <h2>Deleting an Item</h2>
+    If you right-click on one of the items you can choose to delete the item.<br> 
+    The item cannot be deleted in case it has been used by other items. For example, if you have a country 
+    which has been assigned to 3 movies you won't be able to delete the item. The system will notify of this. 
+    To delete it you'll first have to remove all the references to the item (see next paragraph).<br>
+    
+    <h2>Deleting Unassigned Items</h2>
+    If the list has gotten very long it might be a good idea to remove all items which are not in use (for
+    example a state which has not been set on any item). Select "Edit" from the menu and select the "Delete Unassigned" option.
+    
+    <h2>Merging Items</h2>
+    You can merge multiple items into one item. This is explained <a href="merging_property_items.html">here</a>.
+    
+    <h2>Related items / References</h2>
+    To view how the item has been used open the item and take a look at the related item tab of the 
+    <a href="../items/itemform.html">item form</a>.
+
+    <h2>Settings</h2>
+    The Settings menu contains the <a href="../settings/fields.html">General Field Settings</a> and the 
+    <a href="../settings/itemformsettings.html">Item Form Settings</a> options.
+
+  </body>
+</html>

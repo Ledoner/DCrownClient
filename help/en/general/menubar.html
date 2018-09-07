@@ -1,0 +1,336 @@
+<html>
+<head><link href="../datacrow_help.css" rel="stylesheet" type="text/css"></head>
+
+<body>
+
+    <h1>The menu bar</h1>
+    The menu bars contains links to all of the functionality of Data Crow. This help page will explain the 
+    basic meaning of the menu.
+
+    <h2>File</h2>
+    Items can be created, deleted, or opened. You can also view events or quit the application.
+    
+    <table>
+        <tr><td><img src="./images/tb_wizard.png" alt="" border="0"></td>
+        <td><a href="../items/wizard.html">Item Wizard</a>.
+        The item wizard is a quick way to add new items to the database (apart from importing them from a 
+        CSV or XML file). It will first start with an online search (if the module supports online searches). 
+        After the item has been found it allows you in the next step to edit the item manually. 
+        After finishing the wizard the item is saved to the database.
+        </td></tr>
+    </table>   
+    
+    <table>
+        <tr><td><img src="./images/tb_add.png" alt="" border="0"></td>
+        <td><a href="../items/itemform.html">New &lt;name&gt; Item</a>. 
+        With the New &lt;name&gt; Item menu option (the &lt;name&gt; will mention the item name, such as Movie in the Movie module) 
+        you can add a new item to Data Crow, manually. It will open the <a href="../items/itemform.html">item form</a>.
+        </td></tr>
+    </table>
+    
+    <table>
+        <tr><td><img src="./images/tb_open.png" alt="" border="0"></td>
+        <td><a href="../items/itemform.html">Open &lt;name&gt; Item</a>. 
+        The Open &lt;name&gt; Item menu option (the &lt;name&gt; will mention the item name, such as Movie in the Movie module) 
+        opens the currently selected item (in the overview) in the <a href="../items/itemform.html">item form</a>. 
+        The item information cannot be changed using this option, it will open the item read-only.
+        </td></tr>
+    </table>     
+    
+    <table>
+        <tr><td><img src="./images/tb_open.png" alt="" border="0"></td>
+        <td><a href="../items/itemform.html">Edit &lt;name&gt; Item</a>.
+        The Open &lt;name&gt; Item menu option (the &lt;name&gt; will mention the item name, such as Movie in the Movie module) 
+        opens the currently selected item (in the overview) in the <a href="../items/itemform.html">item form</a>. 
+        The item form allows you to change the information on the item.
+        </td></tr>
+    </table> 
+    
+    <table>
+        <tr><td><img src="./images/tb_saveall.png" alt="" border="0"></td>
+        <td><a href="../items/views.html">Save all</a>.
+        The table view allows you to edit the items directly in the view. To save all changes you have made you can use the 
+        save all menu option.
+        </td></tr>
+    </table>
+    
+    <table>
+        <tr><td><img src="./images/tb_delete.png" alt="" border="0"></td>
+        <td><a href="../items/views.html">Delete</a>.
+        Deletes all selected items (in the view) from the database. This cannot be reverted (only by restoring a backup). 
+        The system will ask for confirmation first.
+        </td></tr>
+    </table>
+    
+    <table>
+        <tr><td><img src="./images/tb_log.png" alt="" border="0"></td>
+        <td><a href="../general/log.html">Show Log</a>.
+        The log shows events, things that happened in the system. If something went wrong, Data Crow will 
+        log an error here. Always a good place to look if you are having issues. It will also show informative 
+        messages, "I did this at this and this time".<br>
+        The System Information tab shows additional information. What directories are being used, how much resources
+        are available, which Java version is used, etcetera.
+        </td></tr>
+    </table> 
+    
+    <table>
+        <tr><td><img src="./images/tb_exit.png" alt="" border="0"></td>
+        <td><a href="#">Quit</a>.
+        Exit the application. 
+        </td></tr>
+    </table>      
+    
+    <h2>Administration</h2>
+    
+    <table>
+        <tr><td><img src="./images/tb_administration.png" alt="" border="0"></td>
+        <td><a href="../items/administration.html">Maintain</a>. 
+        Most modules make use of drop downs or multi-reference fields. An example is the state field for 
+        software items. 
+        This state field has a default set of values. You can modify this list, completely. The administration
+        of these items (we call them property items, part of property modules) can be done from within the 
+        administration menu.
+        </td></tr>
+        <tr><td><img src="./images/tb_loan.png" alt="" border="0"></td>
+        <td><a href="../loan/loanadmin.html">Loan Administration</a>. 
+        This overview gives you a complete picture of your current loans, historical loans and overdue items. 
+        It has some powerful search options for you to work with.
+        </td></tr>        
+    </table>
+
+    <h2>Experience Level</h2>
+    <table>
+        <tr><td><img src="./images/tb_beginner.png" alt="" border="0"></td>
+        <td><a href="#">Beginner</a>. 
+        This switches Data Crow to the "Beginner" mode, hiding many of the options within the various menus.
+        </td></tr>
+        <tr><td><img src="./images/tb_expert.png" alt="" border="0"></td>
+        <td><a href="#">Expert</a>. 
+        This switches Data Crow to the "Expert" mode, giving access to all tools and options.
+        </td></tr>        
+    </table>
+
+    <h2>Modules</h2>
+    
+    <table>
+        <tr><td><img src="./images/tb_wizard.png" alt="" border="0"></td>
+        <td><a href="../modules/createmodulewizard.html">Create Module Wizard</a>. 
+        This tool allows you to create a new module. It is a powerful tool allowing you to design your own 
+        collection management section within the application. Items stored in these modules are stored in the database, just 
+        as is done with the default modules. You'll have many of the standard tools at your disposal when managing your items.
+        There is a separate manual available for download from the website.
+        </td></tr>
+        <tr><td><img src="./images/tb_wizard.png" alt="" border="0"></td>
+        <td><a href="../modules/copymodulewizard.html">Copy Module Wizard</a>.  
+        This wizard based tool allows you to create a new module based on an existing module. It saves you from having to define each and
+        every field while there is another module already available which almost fits your needs. 
+        </td></tr>            
+        <tr><td><img src="./images/tb_wizard.png" alt="" border="0"></td>
+        <td><a href="../modules/altermodulewizard.html">Alter Module Wizard</a>.  
+        In case you want to add a field to one of the modules you can use the alter module wizard. This powerful tool allows you to change
+        existing fields or add new fields. Additionally you can modify some of the settings (indicate if items of this module can be lend to others for example).
+        </td></tr>   
+        <tr><td><img src="./images/tb_wizard.png" alt="" border="0"></td>
+        <td><a href="../modules/relatemodulewizard.html">Relate Module Wizard</a>.  
+        A wizard driven tool which allows you to create a parent-child relationship between two modules. An example of such a relationship can be found in 
+        the Music Album module. This module is the parent of the Music Tracks module. This means that music tracks cannot exist without the music album.
+        There is no way to remove this relationship; be careful using this tool!
+        </td></tr>   
+        <tr><td><img src="./images/tb_wizard.png" alt="" border="0"></td>
+        <td><a href="../modules/deletemodulewizard.html">Delete Custom Module Wizard</a>.  
+        Wanting to delete a module? This is the wizard to be used. In two simple steps the module will be destroyed. This cannot be undone.
+        Note that you can also disable modules from within the <a href="../settings/module.html">settings</a>. 
+        This hides the module without removing it. This option is not available in case you have not created or imported a custom module.
+        </td></tr>
+        <tr><td><img src="./images/tb_wizard.png" alt="" border="0"></td>
+        <td><a href="../modules/exportmodulewizard.html">Export Module Wizard</a>.  
+        So you have created this really awesome module! So much work while it is only in use in your local installation. Why not share it 
+        with other persons? Use the export module wizard to export the created module structure along with its settings, data and pictures. 
+        This option is not available in case you have not created or imported a custom module.
+        </td></tr>           
+        <tr><td><img src="./images/tb_wizard.png" alt="" border="0"></td>
+        <td><a href="../modules/importmodulewizard.html">Import Module Wizard</a>.  
+        This tool allows you to import a module previously export with the export module wizard. It's a simple process which will load the module,
+        its items, settings and pictures.
+        </td></tr>
+        <tr><td>-</td>
+        <td><a href="#">Active Module</a>.  
+        From here you switch between modules. Simply select the module to start using it. This menu is here in case you have disabled the module list, 
+        the area where modules normally are selected.
+        </td></tr>
+    </table>    
+
+    <h2>View</h2>
+    
+    <table>
+        <tr><td><img src="./images/tb_viewtable.gif" alt="" border="0"></td>
+        <td><a href="../items/views.html">Card View</a>. 
+        The card view is graphically the nicest looking view. Items are displayed as small cards and show a picture and a short description of the item
+        based on the <a href="../settings/fields.html">field settings</a>, "is descriptive".
+        </td></tr>    
+        <tr><td><img src="./images/tb_viewcard.gif" alt="" border="0"></td>
+        <td><a href="../items/views.html">Table View</a>. 
+        The table view allows you to edit items directly in the view, without having to open the item form.
+        </td></tr>
+        <tr><td><img src="./images/tb_toggle.png" alt="" border="0"></td>
+        <td><a href="../general/quickview.html">Toggle Quick View</a>. 
+        Enables or disables the Quick View.
+        </td></tr> 
+        <tr><td><img src="./images/tb_toggle.png" alt="" border="0"></td>
+        <td><a href="../general/grouping_pane.html">Toggle Grouping Pane</a>. 
+        Enables or disables the Grouping Pane.
+        </td></tr>
+        <tr><td><img src="./images/tb_toggle.png" alt="" border="0"></td>
+        <td><a href="../general/toolbar.html">Toggle Toolbar</a>. 
+        Enables or disables the Toolbar.
+        </td></tr>         
+
+    </table>    
+
+    <h2>Filter</h2>
+    <table>
+        <tr><td><img src="./images/tb_filter.gif" alt="" border="0"></td>
+        <td><a href="../filters/filters.html">Filter</a>. 
+        The Filter allows you to build complex filters to find your items. These filters can even be stored, so you can use them again in the future.
+        </td></tr>    
+        <tr><td><img src="./images/tb_filteragain.gif" alt="" border="0"></td>
+        <td><a href="../filters/filters.html">Re-apply Filter</a>. 
+        Applies the filter again, refreshing the view completely.
+        </td></tr>
+        <tr><td><img src="./images/tb_delete.png" alt="" border="0"></td>
+        <td><a href="../filters/filters.html">Undo Current Filter</a>. 
+        Removes any filter condition and loads all items.
+        </td></tr> 
+    </table>
+    
+    <h2>Settings</h2>
+    <table>
+        <tr><td><img src="./images/tb_settings.png" alt="" border="0"></td>
+        <td><a href="../settings/general.html">Settings</a>. 
+        The Settings view allows you to change all of the system settings. It contains settings such as the proxy server, program associations,
+        font options and much, much more. These settings are stored per computer. So if you run multiple installations, from multiple computers, but share
+        the same user folder, these settings are not shared between the computers. All the rest will be shared, but not these settings.
+        </td></tr>    
+        <tr><td><img src="./images/tb_settings.png" alt="" border="0"></td>
+        <td><a href="../settings/fields.html">General Field Settings</a>. 
+        Don't want to use a certain field? Want to change the label on one of the fields? Each and every field option can be found here. 
+        These are very important settings and it is always good to take a look at this section. The most important part might be is that you can indicate
+        how your items are described with the "Descriptive?" option. Read more <a href="../filters/fields.html">here</a>.
+        </td></tr>
+        <tr><td><img src="./images/tb_settings.png" alt="" border="0"></td>
+        <td><a href="../settings/quickview.html">Quick View Settings</a>. 
+        The <a href="../general/quickview.html">quick view</a> can be modified to your desires. Here you can indicate which fields should be shown and in which order. 
+        </td></tr> 
+        <tr><td><img src="./images/tb_settings.png" alt="" border="0"></td>
+        <td><a href="../settings/cardview.html">View Settings</a>. 
+        To modify the current view, such as the colors and the information to be shown, you have to use the View Settings. 
+        The settings differ slightly between the <a href="../settings/cardview.html">Card View</a> and the <a href="../settings/tableview.html">Table View</a>.
+        </td></tr> 
+        <tr><td><img src="./images/tb_settings.png" alt="" border="0"></td>
+        <td><a href="../settings/itemformsettings.html">Item Form Settings</a>. 
+        Change the appearance of the <a href="../items/itemform.html">item form</a>. You can even assign fields to tabs and change the order of the fields.
+        </td></tr> 
+        <tr><td><img src="./images/tb_laf.png" alt="" border="0"></td>
+        <td><a href="../settings/laf.html">Look &amp; Feel</a>. 
+        The Look and Feel determines how the fields and such look in the application. It's best just to try it for yourself!
+        </td></tr>
+        <tr><td><img src="./images/tb_settings.png" alt="" border="0"></td>
+        <td><a href="../tools/resource_editor.html">Resource Editor</a>. 
+        Any label can be changed or translated using the Resource Editor. You can even create a whole new language pack.
+        </td></tr>         
+    </table>    
+
+    <h2>User</h2>
+    <table>
+        <tr><td><img src="./images/tb_settings.png" alt="" border="0"></td>
+        <td><a href="#">Change Password</a>. 
+        Change your own password from here.
+        </td></tr> 
+    </table>    
+    
+    <h2>Tools</h2>
+    <table>
+        <tr><td><img src="./images/tb_fileimport.png" alt="" border="0"></td>
+        <td><a href="../tools/fileinformationimport.html">File Import</a>. 
+        Extracts information from the files on your system. For music albums for example Data Crow can get the name of the artist and album from the
+        MP3 or other file formats. Additionally it can find missing information using one of the <a href="../onlinesearch/onlinesearch.html">online services</a>. 
+        This tool is only available for "file backed" modules / items. This should not be confused with the ability of Data Crow to import items from 
+        text files. Use the <a href="../tools/item_import.html">Item Importer</a> to import items from a CSV, text or XML file.
+        </td></tr> 
+        <tr><td><img src="./images/tb_onlinesearch.png" alt="" border="0"></td>
+        <td><a href="../onlinesearch/onlinesearch.html">Online Search</a>. 
+        Find information on your items online, select the item and save it. 
+        <br>Not all modules will have this tool available. Custom modules 
+        won't either unless you have programmed one specifically for your module.
+        </td></tr>
+        <tr><td><img src="./images/tb_massupdate.png" alt="" border="0"></td>
+        <td><a href="../tools/mass_update.html">Mass Update</a>. 
+        Update many items at once, using the online search and file import capabilities of Data Crow. 
+        </td></tr>
+        <tr><td><img src="./images/tb_report.png" alt="" border="0"></td>
+        <td><a href="../reports/reporting.html">Create Report</a>. 
+        Create HTML and PDF reports. If this menu option is not available it means that no XSLT files (report templates) have been defined for your module. 
+        There is a manual on how to do this, which can be found on the Data Crow website.
+        </td></tr>
+        <tr><td><img src="./images/tb_charts.png" alt="" border="0"></td>
+        <td><a href="../charts/charts.html">Charts</a>. 
+        Create a graphical representation on the information of your items. 
+        </td></tr>
+        <tr><td><img src="./images/tb_itemexport.png" alt="" border="0"></td>
+        <td><a href="../tools/item_export.html">Item Export Wizard</a>. 
+        Export your items to a CSV or XML (recommended) file.
+        </td></tr>
+        <tr><td><img src="./images/tb_itemimport.png" alt="" border="0"></td>
+        <td><a href="../tools/item_import.html">Item Import Wizard</a>. 
+        Import your items from a CSV or XML file.
+        </td></tr>
+        <tr><td><img src="./images/tb_createmultiple.png" alt="" border="0"></td>
+        <td><a href="../items/create_multiple.html">Create Multiple Items</a>. 
+        Allows for quick manual creation of multiple items
+        </td></tr>
+        <tr><td><img src="./images/tb_updateall.png" alt="" border="0"></td>
+        <td><a href="../tools/update_all.html">Update All</a>. 
+        Update many items (or all..) at once. This is a simple, but powerful, tools applying manually entered values to multiple items at once.
+        </td></tr>
+        <tr><td><img src="./images/tb_updateall.png" alt="" border="0"></td>
+        <td><a href="../tools/findreplace.html">Find &amp; Replace</a>. 
+        Replace one value with another value within text fields. It will show you a preview first (luckily) before it is applied on your items.
+        </td></tr>
+        <tr><td><img src="./images/tb_autonumberer.png" alt="" border="0"></td>
+        <td><a href="../tools/auto_numbering.html">Auto Numbering</a>. 
+        Number, or renumber, your items. All of them and all at once. It even has options to skip or fill gaps in the numbering.
+        </td></tr>
+        <tr><td><img src="./images/tb_updateall.png" alt="" border="0"></td>
+        <td><a href="../tools/title_rewriter.html">Title Rewriter / Name Rewriter</a>. 
+        Rewrites the titles of your items. It's a great tool to change titles from "The Doctor" to "Doctor, The" for example. 
+        The <a href="../tools/associate_name_rewriter.html">person rewriter</a> is different for person records as opposed to <a href="../tools/title_rewriter.html">other items</a>.
+        </td></tr>   
+        <tr><td><img src="./images/tb_backuprestore.png" alt="" border="0"></td>
+        <td><a href="../tools/backup_restore.html">Backup &amp; Restore</a>. 
+        Create a full backup of your data, including settings, modules and pictures. And it also allows for restore backups (just saying..).
+        </td></tr> 
+        <tr><td><img src="./images/tb_settings.png" alt="" border="0"></td>
+        <td><a href="../tools/database_editor.html">Database Editor</a>. 
+        Direct access to the database. It ignores all the safety rules I have built into the application. Use at your own risk! 
+        (make.. backups..)
+        </td></tr>
+        <tr><td><img src="./images/tb_drivemanager.png" alt="" border="0"></td>
+        <td><a href="../tools/drivemanager.html">Drive Manager</a>. 
+        Scans your drives for files added to Data Crow and corrects the file links in case the file has been moved or renamed. An undervalued but oh so
+        sophisticated tool.
+        </td></tr>  
+        <tr><td><img src="./images/tb_filerenamer.png" alt="" border="0"></td>
+        <td><a href="../tools/filerenamer.html">File Renamer</a>. 
+        Rename files on your drives based on the information present in Data Crow. It also allows you to move files to a new location and a new 
+        folder structured. It will show you a preview first before doing anything.
+        </td></tr>        
+    </table>      
+
+    <h2>Plugins</h2>
+    This menu is not present by default. This menu will only be shown if you have additional (custom) plugins installed.
+
+    <h2>Help</h2>
+    Contains a link to the about dialog, the tip of the day, the donation page and the help.
+
+</body>
+</html>

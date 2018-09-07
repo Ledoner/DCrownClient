@@ -1,0 +1,53 @@
+<html>
+  <head>
+        <link href="../datacrow_help.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+
+  <h1>Item Export Wizard</h1>
+  <i>Menu path: Tools &gt; Item Export Wizard</i><br><br>
+  
+  The item export wizard allows you to export items to an external file. Items of each module within Data Crow can
+  be exported. Before the wizard is started you will be asked to select the module from which you like to export the items.
+
+  <h2>Formats</h2>
+  The wizard is capable to export items to a text or a XML file. XML is the preferred format as the items will be stored in
+  a hierarchical structure rather than a flat, single line, structure. The XML format is also the preferred format when exchanging items
+  between Data Crow installations. The XML format is also used internally by Data Crow for operations like the module export and import.
+  <br><br>
+  The text export exports the items to a text file. Each line represents a single item. The values are separated by a character
+  which you can define in the configuration step of the wizard.
+
+  <h2>Configuration options</h2>
+
+  <h3>Export File</h3>
+  Select the target file (mandatory).
+
+  <h3>Images</h3>
+  In the second step of the wizard you can choose to export the images. This is recommended as the images are then stored in a sub folder
+  of the location of the report file.
+
+  <table cellspacing="2" cellpadding="2" border="0">
+    <tr><td>-</td>
+        <td><b>Copy Images</b>. 
+        Copies the images to a sub folder.
+        If you choose not to export the images a link to the original location of the image will be exported.</td></tr>
+    <tr><td>-</td>
+        <td><b>Scale Images</b>. 
+        You can choose to store a smaller version of the original image. Specify the width and the height.
+        The original proportions are kept so that will not end up with malformed image sizes.</td></tr>
+  </table><br>
+
+  <h3>Text length</h3>
+  You can indicate the maximum text length. The value "0" means that text will not be cut. Data Crow will try and find the nice position possible
+  to cut the text. For example right after a dot or an end of line character.
+
+
+  <h2>Limitations</h2>
+  
+  1. The text import is not capable of exporting relationships between items. <br>
+  2. The text import will remove new line characters from the values. Each line of the text file will contain just one item.
+
+  </body>
+</html>

@@ -1,0 +1,91 @@
+<html>
+  <head>
+        <link href="../datacrow_help.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+
+    <h1>Loan Administration</h1>
+    <i>Menu path: Administration &gt; Loan Administration</i><br><br>
+    
+    The loan information gives an overview of currently lend items. You can search for specific loans 
+    using the filter fields.
+    
+    <br><br><img src="./images/loan_administration.png" alt="" border="0"><br><br>
+
+    The following filter fields are available:<br>
+
+    <table cellspacing="2" cellpadding="2" border="0">
+        <tr><td>-</td>
+        <td><b>Loan Type</b>.
+        Select the type of loans you want to include in the overview. You have the option to only include current 
+        loans, historical loan or both.     
+        </td></tr>
+    	<tr><td>-</td>
+        <td><b>Lend by</b>.
+        Select the specific contact person to get an overview of the items borrowed by him or her.
+        </td></tr>
+    	<tr><td>-</td>
+        <td><b>Item</b>.
+        Select the type of items you want to filter on (software, movies, etc).
+        </td></tr>
+    	<tr><td>-</td>
+        <td><b>Late returns only</b>.
+        only include overdue items.
+        </td></tr>          
+    	<tr><td>-</td>
+        <td><b>Due date between x and y</b>.
+        Select the date range for the due date. You can leave either field, or both, blank.
+        </td></tr>  
+    	<tr><td>-</td>
+        <td><b>Start date between x and y</b>.
+        Select the date range for the start date. You can leave either field, or both, blank.
+        </td></tr>  
+    </table> <br>  
+    
+    The overview shows the loans. You can double click on any of them to return an item or to look at the details. 
+    (<a href="../loan/loan.html" target="main">More about this</a>). Right-click on any of the loans to either edit or 
+    review the item: <br><br>
+    
+    <img src="./images/loan_administration_rightclick.png" alt="" border="0"><br><br>
+    
+    The following information is shown per loan:<br><br>
+    
+    <img src="./images/loan_administration_overview.png" alt="" border="0"><br><br>
+    
+    
+    <table cellspacing="2" cellpadding="2" border="0">
+        <tr><td>-</td>
+        <td><b>Item</b>.
+        What kind of item are we looking at (software, audio CD, etc.). 
+        </td></tr>
+    	<tr><td>-</td>
+        <td><b>Label</b>.
+        Description of the item.
+        </td></tr>
+    	<tr><td>-</td>
+        <td><b>Lend By</b>.
+        Who is borrowing the item?
+        </td></tr>
+    	<tr><td>-</td>
+        <td><b>Start date</b>.
+        The date of the start of the loan.
+        </td></tr>
+    	<tr><td>-</td>
+        <td><b>End date</b>.
+        The return date. Only historical loans will hold a value here.
+        </td></tr>
+    	<tr><td>-</td>
+        <td><b>Due Date</b>.
+        When should the item be returned? Displayed in red in case overdue.
+        </td></tr>
+    	<tr><td>-</td>
+        <td><b>Loan status</b>.
+        The status of the loan such as overdue, lent and available.
+        </td></tr>
+    	<tr><td>-</td>
+        <td><b>Days</b>.
+        Number of days in relation to the current loan status.
+        </td></tr>        
+    </table>  
+  </body>
+</html>

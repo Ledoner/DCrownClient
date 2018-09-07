@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data-crow-objects xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="contactperson_category.xsd">
+    <category>
+        <item>Categories</item>
+        <alternative-names></alternative-names>
+        <created>2009-10-17</created>
+        <id>101741454610288</id>
+        <icon>R0lGODlhEAAQAHAAACH5BAEAACAALAAAAAAQABAAhQAAAACZM///AABmMwCZZgBmZpmZADMzAHd3d8zMABEAADMAAIiIiEQAAHcAAN0AAJkAMzMzMyIAAKoAAIgAAMwAM7sAAO4AAMwzAP8zAMwAAP8AAP/MAJkzAP+ZAAARAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaRQJBQCAAMjcZjMcBMFgVJ0GBAYA4KRoEBcBhOq8wqAJGIggJgxaLIKBaP4IbjAYlIzCAAMzCZUCoQDxQAAkdNEBYXFw8TFm9EaAAQGBcZGhUNZgAEBAoTGhscGhYKWHADCx0PGxsVFQAFAU4BAxYTAh4cGBOwV0iyFIoPFxWORR9RRRIWGouOQ9B5btPR0dN4QQA7</icon>
+        <item>Categories</item>
+        <label>Family</label>
+        <modified></modified>
+        <name>Family</name>
+    </category>
+    <category>
+        <item>Categories</item>
+        <alternative-names></alternative-names>
+        <created>2009-10-17</created>
+        <id>101774828615796</id>
+        <icon>R0lGODlhEAAQAHAAACH5BAEAADAALAAAAAAQABAAhQAAACIAABEREQBVABEAAHcAAP8zMwARAAAiAAAzAEQAAMwzZswzAMwzM5kAM1UAAABmAABEAAAAEf8AALsAAABmMwB3AKoAAP///2ZmZt0AAJlmZt3d3f9mM5kzAP//zP9mZswAAGYAAO7u7u4AAHd3d0RERLu7u1VVVYgAAJkAAP8zAMxmM5kzM/+ZM/+ZZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbMQJhQCCgGisMkDCAYEAqGwAFxUAISA8WC0XA8DhDCEBCBSCaGhpryiFSqS0ukoAAYDAfAhQAZAGAQEAcUGBkaExscDwUIEAIAFmEaHBgdHg0fBBcAEAmcEAoXaCB3GiF7gZ8PE6MgF6YUBAMQABWgISIYd6QhsRURtRABGgAjJBMgIwAUnAgwCYJsJSYAJygpBZxiBL8BFK8kKRcFARHORMAMKhcXKSkqAFRLAiKvDCsGKywNLQHwBARchNBAAkAHFy9YsEjx4AIFFkEAADs=</icon>
+        <item>Categories</item>
+        <label>Friend</label>
+        <modified></modified>
+        <name>Friend</name>
+    </category>
+</data-crow-objects>

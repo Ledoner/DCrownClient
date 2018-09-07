@@ -1,0 +1,64 @@
+<html>
+  <head>
+        <link href="../datacrow_help.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+
+  <h1>Assistente Exportar itens</h1>
+  <i>Caminho de menu: Ferramentas &gt; Assistente Exportar itens</i><br><br>
+  
+  Este assistente permite-lhe exportar itens para um ficheiro externo. Pode exportar itens de todo e cada m&oacute;dulo do Data Crow. 
+  Antes de iniciar o assistente, tem de selecionar o m&oacute;dulo que quer usar.
+  
+  <br><img src="./images/itemimport_choosemodule_pt.png"><br><br>
+
+  <h2>Formatos</h2>
+  
+  <br><img src="./images/fileexport_step1_pt.png"><br><br>
+  
+  O assistente pode exportar itens para ficheiros de texto ou XML. XML &eacute; o formato preferido, uma vez que os itens ser&atilde;o 
+  armazenados numa estrutura hier&aacute;rquica em vez de uma estrutura plana, de linha &uacute;nica. &Eacute; tamb&eacute;m o formato 
+  preferido para trocar itens entre instala&ccedil;&otilde;es do Data Crow. Tamb&eacute;m &eacute; o formato usado internamente pelo 
+  Data Crow  para opera&ccedil;&otilde;es como exporta&ccedil;&atilde;o e importa&ccedil;&atilde;o de m&oacute;dulos.
+  <br><br>
+  A exporta&ccedil;&atilde;o para texto, exporta os itens para um ficheiro de texto. Cada linha representa um &uacute;nico item. Os valores
+  s&atilde;o separados por um car&aacute;ter, que pode definir na configura&ccedil;&atilde;o do assistente.
+
+  <h2>Op&ccedil;&otilde;es de configura&ccedil;&atilde;o</h2>
+
+  <h3>Exportar ficheiro</h3>
+  
+  <br><img src="./images/fileexport_step2_pt.png"><br><br>
+  
+  Selecione o ficheiro destino (obrigat&oacute;rio).
+
+  <h3>Imagens</h3>
+  No segundo passo do assistente, pode optar por exportar as imagens. &Eacute; <b><u>recomendado</b></u>, uma vez que as imagens s&atilde;o
+  assim armazenadas numa subpasta da localiza&ccedil;&atilde;o do ficheiro.
+
+  <table cellspacing="2" cellpadding="2" border="0">
+    <tr><td>-</td>
+        <td><b>Copiar imagens</b>: 
+        copia as imagens para uma subpasta. Se optar por n&atilde;o exportar as imagens, ser&aacute; exportada uma liga&ccedil;&atilde;o 
+		&agrave; localiza&ccedil;&atilde;o original da imagem.</td></tr>
+    <tr><td>-</td>
+        <td><b>Dimensionar imagens</b>: 
+        pode optar por armazenar uma vers&atilde;o mais pequena da imagem original. Especifique a largura e altura.
+        As propor&ccedil;&otilde;es originais s&atilde;o mantidas para que n&atilde;o acabe com imagens distorcidas.</td></tr>
+  </table><br>
+
+  <h3>Comprimento do texto</h3>
+  Pode indicar o comprimento m&aacute;ximo do texto. O valor "0" significa que o texto n&atilde;o ser&aacute; cortado. O Data Crow 
+  tentar&aacute; encontrar a posi&ccedil;&atilde;o mais simp&aacute;tica poss&iacute;vel para cortar o texto. Por exemplo, a seguir 
+  a um ponto final ou a um car&aacute;ter de fim de linha.
+
+
+  <h2>Limita&ccedil;&otilde;es</h2>
+  
+  1. A exporta&ccedil;&atilde;o de texto n&atilde;o consegue exportar rela&ccedil;&otilde;es entre os itens. <br>
+  2. A exporta&ccedil;&atilde;o de texto remove carateres de nova linha dos valores. Cada linha do ficheiro de texto cont&eacute;m um 
+  &uacute;nico item.
+
+  </body>
+</html>

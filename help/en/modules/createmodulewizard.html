@@ -1,0 +1,83 @@
+<html>
+  <head>
+        <link href="../datacrow_help.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+  
+    <h1>Creating a new module</h1>
+    <i>Menu path: Modules &gt; Create Module Wizard</i><br><br>
+
+	<i>Note that there is a module creation guide available <a href="http://www.datacrow.net/#downloads">here</a></i><br><br>
+
+	In the main screen of Data Crow you'll find a menu called "modules". This menu contains wizards to customize, create and relate modules. 
+	In this chapter we will dive into the creation of your very own module. 
+	
+	<br><br><img src="./images/module_create.png">
+	
+	<h2>Starting the wizard</h2>
+	Start the wizard by selecting "Create Module Wizard" from the modules menu.
+	
+	<h2>Selecting a module type</h2>
+	There are 3 types of modules to choose from; property module, media module and "other" module.
+	
+	<br><br><img src="./images/module_create_type.png">
+	
+	<h3>Property Modules</h3>
+	A property is a very simple module. It has 2 important predefined fields; "name" and "icon" and cannot be extended with any other field. 
+	The property module is used by other modules to create property items such as genres, categories, storage media, etc. More on this when 
+	you start to define fields for your module.
+	
+	<h3>Media Modules</h3>
+	This module type is very common within Data Crow. Software, Music Albums and Movies are examples of media modules. This module type has a set
+	of predefined fields common for all media modules: title, description, year, location, rating and the default "user" fields.
+	
+	<h3>Other Modules</h3>
+	If any of the above doesn't suite you, go for this module type. This module type has no predefined fields (apart from the ID field which is
+	required for all modules) making this the perfect candidate to create a module from scratch.
+    
+    <h3>Person Modules</h3>
+    Want to have a module representing persons? Default fields: name, first name, last name, name, photo, web page.
+    
+    <h2>Filling the basic information</h2>
+    In this step you will name the module and its item(s), select the icons and enter a description. The name of the module and the object names
+    cannot be changed afterwards so pick these carefully. <br>
+    <table cellspacing="2" cellpadding="2" border="0">
+    	<tr><td>-</td>
+    		<td><b>Description</b> A generic description of the module. This description is displayed in the module bar when hovering with the mouse over the module.</td></tr>
+    	<tr><td>-</td>
+    		<td><b>Name</b> the name of the module. For example "Software".</td></tr>
+    	<tr><td>-</td>
+    		<td><b>Item name</b> the name of the items of this module. For example "Software Item".</td></tr>
+    	<tr><td>-</td>
+    		<td><b>Item name plural</b> the plural of the defined name. For example "Software Items".</td></tr>
+	</table>
+	
+    <br><br>
+    
+    The icons can be changed by doing a single left mouse click on the specific icon. The large icon will be used in module bar (left hand side of the screen) the small version
+    is use throughout the whole application. 
+    <br><br>
+    
+    The following options are available. Note that the available options can vary between module types.
+    <table cellspacing="2" cellpadding="2" border="0">
+    	<tr><td>-</td>
+    		<td><b>Items can be assigned to a container.</b> Enabling this option makes the container drop-down available for items of this module. 
+    		This allows items to be stored in containers. A container can represent a closet, a CD case, a box or anything else.</td></tr>
+    	<tr><td>-</td>
+    		<td><b>Items represent actual files.</b> If enabled file fields are added to the items of this module thus making it possible for your items
+    		to represent files in your system.</td></tr>
+    	<tr><td>-</td>
+    		<td><b>Items can be lent to other persons.</b> You can also indicate if items belonging to the module can be lent to other persons (not available for property modules). Enabling this will
+            activate the loan functionality. You can change this information at a later stage (Alter Module Wizard).</td></tr>
+	</table>
+
+	<h1>Defining fields</h1>
+    See the <a href="definingfields.html">"Defining Fields"</a>.
+    
+    <h1>Finishing the Wizard</h1>
+    After all information has been supplied press the "finish" button or the "finish & new" button. The "finish" button finishes the module creation process. 
+    Data Crow needs to restart before you can use the new module. The "finish & new" button finishes the module creation process and 
+    restarts the wizard (which can be useful when you want to create more than one module).
+
+  </body>
+</html>

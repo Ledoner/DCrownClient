@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data-crow-objects xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="binding.xsd">
+    <binding>
+        <item>Bindings</item>
+        <alternative-names></alternative-names>
+        <created>2009-10-17</created>
+        <id>101762374740002</id>
+        <icon></icon>
+        <item>Bindings</item>
+        <label>Hardcover</label>
+        <modified></modified>
+        <name>Hardcover</name>
+    </binding>
+    <binding>
+        <item>Bindings</item>
+        <alternative-names></alternative-names>
+        <created>2009-10-17</created>
+        <id>101791667267670</id>
+        <icon></icon>
+        <item>Bindings</item>
+        <label>Paperback</label>
+        <modified></modified>
+        <name>Paperback</name>
+    </binding>
+</data-crow-objects>

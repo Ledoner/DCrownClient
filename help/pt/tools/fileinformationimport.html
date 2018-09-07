@@ -1,0 +1,133 @@
+<html>
+  <head>
+        <link href="../datacrow_help.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+
+    <h1>Importar ficheiros <i>&lt;nome&gt;</i></h1>
+    <i>Caminho de menu: Ferramentas &gt; Importar ficheiros <i>&lt;nome&gt;</i></i><br><br>
+
+	Usando a funcionalidade de importa&ccedil;&atilde;o pode rapidamente encontrar informa&ccedil;&atilde;o num CD-ROM ou no disco r&iacute;gido.
+  	A funcionalidade <b>Importar ficheiros</b> <i>&lt;nome&gt;</i> encontra-se no menu <b>Ferramentas</b>. O <i>nome</i> corresponde ao nome 
+	do m&oacute;dulo, tal como <i>Filmes</i> ou <i>Programas</i>
+  	<br><br>
+    <b>Nota:</b> esta ferramenta n&atilde;o deve ser confundida com a capacidade do Data Crow de importar itens de ficheiros de texto. 
+    Use o <a href="../tools/item_import.html">Assistente Importar itens</a> para importar itens de ficheiros CSV, texto ou XML.
+
+	<h2>Pastas/Ficheiros</h2>
+	Aqui pode selecionar os ficheiros a importar.
+
+	<br><br><img src="./images/fileimport_directoriesandfiles_pt.png" /><br><br>
+	
+	Use as op&ccedil;&otilde;es seguintes para incluir ficheiros para processamento:<br><br>
+	
+	<table cellspacing="2" cellpadding="2" border="0">
+      <tr><td>-</td>
+          <td><b>Selecione pasta</b>: 
+          selecione uma pasta na qual o importador deve procurar ficheiros. Caso marque a caixa <b>Recursivo</b>, o importador procura na pasta 
+	      selecionada e tamb&eacute;m nas subpastas. Clique em <b>Iniciar</b>para come&ccedil;ar a procura.
+	      Cada ficheiro encontrado &eacute; acrescentado &agrave; tabela por baixo.</td></tr>
+      <tr><td>-</td>
+          <td><b>Selecione um ficheiro</b>: 
+          selecione um ficheiro espec&iacute;fico cuja informa&ccedil;&atilde;o quer analisar. O ficheiro selecionado &eacute; adicionado 
+		  &agrave; tabela por baixo.</td></tr>
+    </table><br>
+	
+	Todos os ficheiros encontrados s&atilde;o adicionados &agrave; tabela de ficheiros.
+	
+	<br><br><img src="./images/fileimport_directoriesandfiles_files_pt.png" /> <br><br>
+	
+	Cada um dos ficheiros marcados ser&aacute; processado quando a importa&ccedil;&atilde;o for iniciada.	
+		
+	<h2>Defini&ccedil;&otilde;es</h2>
+	
+	<br><img src="./images/fileimport_settings_pt.png"><br><br>
+
+    <h3>Informa&ccedil;&atilde;o da multim&eacute;dia</h3>
+
+    <table cellspacing="2" cellpadding="2" border="0">
+        <tr><td>-</td>
+            <td><b>Contentor</b>: 
+            selecione o contentor para os itens importados. Um contentor pode ser qualquer coisa, desde uma estante de CDs a uma casa.</td></tr>
+        <tr><td>-</td>
+            <td><b>Meio de armazenamento</b>: 
+            opcionalmente, pode selecionar o meio de armazenamento para os dados a importar. Este &eacute; o suporte f&iacute;sico em que os dados
+            s&atilde;o armazenados (CD, DVD, etc.).</td></tr>
+    </table> 
+
+    <h3>Utiliza&ccedil;&atilde;o das informa&ccedil;&otilde;es da pasta</h3>
+    Permite que a informa&ccedil;&atilde;o da pasta seja usada para preencher campos, tais como t&iacute;tulo, nome do &aacute;lbum, artista (estes 
+	dois &uacute;ltimos s&oacute; est&atilde;o dispon&iacute;veis para o m&oacute;dulo <i>&Aacute;lbum de m&uacute;sica</i>). As op&ccedil;&otilde;es
+	dispon&iacute;veis variam conforme o m&oacute;dulo que esteja a usar.
+
+    <table cellspacing="2" cellpadding="2" border="0">
+        <tr><td>-</td>
+            <td><b>Usar nome da pasta como t&iacute;tulo</b>: 
+            selecione o contentor para os itens importados. Um contentor pode ser qualquer coisa, desde uma estante de CDs a uma casa.</td></tr>
+    </table> 
+
+    <br><b>Op&ccedil;&otilde;es para ficheiros de m&uacute;sica</b><br>
+    As op&ccedil;&otilde;es seguintes s&oacute; se aplicam a ficheiros de m&uacute;sica (no m&oacute;dulo <i>&Aacute;lbuns de m&uacute;sica</i>).<br><br>
+
+    <table cellspacing="2" cellpadding="2" border="0">
+        <tr><td>-</td>
+            <td><b>N&atilde;o usar informa&ccedil;&atilde;o de pastas</b>: 
+            usar s&oacute; informa&ccedil;&atilde;o do ficheiro de m&uacute;sica, como a informa&ccedil;&atilde;o da etiqueta de um ficheiro MP3.</td></tr>
+        <tr><td>-</td>
+            <td><b>Usar nome da pasta como nome do &aacute;lbum</b>: 
+            a pasta em que a m&uacute;sica est&aacute; tem o nome do &aacute;lbum (por exemplo ..\..\Abba Gold).</td></tr>    
+        <tr><td>-</td>
+            <td><b>Usar nome da pasta como nome de artista</b>: 
+            a pasta em que a m&uacute;sica est&aacute; tem o nome do artista (por exemplo ..\..\Abba).</td></tr>  
+        <tr><td>-</td>
+            <td><b>Usar nome da pasta como nome de artista e a subpasta como nome de &aacute;lbum</b>: 
+            a pasta em que a m&uacute;sica est&aacute; tem o nome do artista e a subpasta tem o nome do &aacute;lbum 
+			(por exemplo ..\Abba\Abba Gold).</td></tr>  
+    </table> 
+
+    <h2>Limpeza de t&iacute;tulos</h2>
+    
+    Quando desativa a utiliza&ccedil;&atilde;o da informa&ccedil;&atilde;o da pasta no separador <b>Defini&ccedil;&otilde;es</b>, o Data Crow 
+	tenta criar o t&iacute;tulo a partir do nome do ficheiro. Como pode imaginar, isto requer alguma limpeza. Para obter melhores resultados,
+	pode especificar palavras a remover dos nomes de ficheiro, e/ou usar um padr&atilde;o regex. 
+    
+    <br><br><img src="./images/fileimport_titlecleaning_pt.png" /><br><br>
+    
+    O Data Crow will primeiro remove as palvras deinidas e depois aplica o padr&atilde;o regex.  
+
+	<h3>Remover as seguintes palavras</h3>
+	A importa&ccedil;&atilde;o tenta obter o t&iacute;tulo do nome do ficheiro, se a informa&ccedil;&atilde;o n&atilde;o puder ser analisada no 
+	pr&oacute;prio ficheiro. Aqui pode introduzir palavras que devem ser removidas ao transformar um nome de ficheiro em t&iacute;tulo. A 
+	compara&ccedil;&atilde;o n&atilde;o &eacute; sens&iacute;vel a mai&uacute;sculas/min&uacute;sculas.
+
+    <h3>Aplicar o seguinte padr&atilde;o regex</h3>
+    Um padr&atilde;o regex &eacute; uma esp&eacute;cie de linguagem de script que pode ser usada para analisar informa&ccedil;&atilde;o. Palavras 
+	ou carateres coincidentes ser&atilde;o removidos.<br>
+	Pode obter mais informa&ccedil;&atilde;o <a href="http://msdn.microsoft.com/en-us/library/az24scfc%28v=vs.110%29.aspx">aqui</a>.
+
+	<h2>Procura online</h2>
+	Este separador s&oacute; aparece se o m&oacute;dulo que est&aacute; a usar suportar servi&ccedil;os online. 
+	
+	<br><br><img src="./images/fileimport_onlinesearch_pt.png" /><br><br>
+	
+	Pode usar um <a href="../onlinesearch/onlinesearch.html">servi&ccedil;o online</a> para encontrar informa&ccedil;&atilde;o adicional, tal como 
+	capas, por exemplo. Pode decidir se quer usar este servi&ccedil;o, marcando a caixa <b>Usar servi&ccedil;os online para encontrar 
+	informa&ccedil;&atilde;o em falta</b>. Se marcada, pode escolher o servi&ccedil;o a usar. 
+	Estas defini&ccedil;&otilde;es est&atilde;o melhor explicadas <a href="../onlinesearch/onlinesearch.html">aqui</a>.
+
+	<h2>Arte local</h2>
+	Arte local s&atilde;o imagens, armazenadas no seu sistema, que pertencem ao item importado.
+	
+	<br><br><img src="./images/fileimport_localart_pt.png" /><br><br>
+	
+	Em vez de confiar no Data Crow para encontrar imagens na internet, pode ser prefer&iacute;vel usar estes ficheiros locais.  
+	
+	<h3>Procura recursiva na pasta</h3>
+	Permitir procurar arte local numa das subpastas do item atualmente importado.
+	
+	<h3>Procurar arte usando as seguintes palavras-chave</h3>
+	Especifique as palavras-chave, separadas por v&iacute;rgulas (,) que o nome de ficheiro de uma imagem deve conter para ser considerado 
+	arte local. 
+
+  </body>
+</html>

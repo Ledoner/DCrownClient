@@ -1,0 +1,62 @@
+<html>
+  <head>
+        <link href="../datacrow_help.css" rel="stylesheet" type="text/css">
+  </head>
+
+<body>
+	<h1>Drive Manager</h1>
+	<i>Menu path: Tools &gt; Drive Manager</i><br><br>
+
+	There are modules which contain items representing a file (or a directory)
+	such as the Music Album and the Image module. The Drive Manager ensures the file information 
+	of these items remains up to date with the file information of your hard disk, CD or any other 
+	kind of drive. Using this tool you don't have to worry about updating Data Crow while moving 
+	a file to another disk or directory. Data Crow will automatically update the item representing 
+	this file.
+	
+	<br><br><img src="./images/drivemanager.png" /><br><br>
+	
+	There are three jobs available for this purpose. These jobs run in the background, 
+	meaning you can continue working with Data Crow while these jobs are running. 
+
+	<h2>Drive Scanner</h2>
+	The Drive scanner scans drives for its files. It stores the file information in the temp folder
+	of Data Crow (&lt;user directory&gt;/temp). The File Synchronizer uses this information
+	to do its job.
+	
+	<h3>Drives to scan</h3>
+	Here you can select which drives should be included in the scan. <br><br>
+	<b>Note:</b> that in case you do not see any drives you can
+	indicate directories to be treated as drives. This can be done <a href="../settings/directoriesasdrives.html">here</a>.
+	
+	<h3>Excluded directories</h3>
+    If you are certain a directory does not contain any relevant information for Data Crow you
+    can exclude it from the scan. For Windows users it would for example make sense to exclude
+    the Windows installation directory.
+    
+    <h2>Drive Poller</h2>
+    This is a very simple job which checks for new drives being mounted or drives being dismounted.
+    
+    <br><br><img src="./images/drivemanager_poller.png" /><br><br>
+    
+	When a new drive/disc is mounted a Drive Scan is started (see previous chapter) and Data Crow
+	will use the information from this drive.
+
+	<h2>File Synchronizer</h2>
+	Synchronizes the file information of items part of Data Crow with the information from your
+	drives. 
+	
+	<br><br><img src="./images/drivemanager_synch.png" /><br><br>
+	
+	When for example a file has been moved to another drive or directory the File 
+	Synchronizer will automatically update the item representing this file (a book, a software item, etc).
+	
+	<h3>Matcher precision</h3>
+	Indicates what information of the item is used to locate the new location of the file. By default
+	the precision is set to the highest as this is the safest way to uniquely identify the file.
+	As information, such as the file hash (which is technical information, generated and stored by Data Crow, 
+	to uniquely identify a file) might be missing you can choose to match on for example 'filename' and
+	'file size' or even solely on 'filename'.
+    
+</body>
+</html>

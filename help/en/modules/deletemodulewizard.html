@@ -1,0 +1,32 @@
+<html>
+  <head>
+        <link href="../datacrow_help.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+  
+    <h1>Deleting modules</h1>
+    <i>Menu path: Modules &gt; Delete Module Wizard</i><br><br>
+	
+	Allows you to delete a custom module. A custom module is a module created by using
+	the module creation wizard. Note that it is always wise to make a backup of Data Crow
+	before you continue by using the <a href="../tools/backup_restore.html">"Backup &amp; Restore"</a>
+	utility.
+	
+	<h2>Starting the wizard</h2>
+	Start the wizard by selecting "Delete Custom Module Wizard" from the modules menu.
+	
+	<h2>Select a module to delete</h2>
+	In the first step of this wizard, select the module you would like to delete by 
+	pressing on its icon.
+	
+	<h2>Confirming the delete</h2>
+    The second step shows you information on what is going to happen when you delete this module.
+    Other modules might depend on this modules existence. A good example would be a property module, Y, 
+    which has been used by another module, X. Module X has a drop-down list of items belonging to 
+    module Y. When module Y is deleted, the reference between module X and module Y is also removed.
+    <br />
+    To delete this module, and all its items, press "finish". To stop the wizard (at any time) press
+    the "cancel" button.
+
+  </body>
+</html>

@@ -1,0 +1,204 @@
+<html>
+  <head>
+        <link href="../datacrow_help.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+
+    <h1>Usar filtros</h1>
+    Por predefini&ccedil;&atilde;o, todos os itens s&atilde;o mostrados numa vista. Para encontrar itens espec&iacute;ficos pode definir filtros 
+    H&aacute; duas op&ccedil;&otilde;es de filtragem, pode usar a barra de filtragem r&aacute;pida, localizada na zona superior do ecr&atilde; 
+	principal, ou pode usar o di&aacute;logo de filtragem que permite filtrar por um ou mais campos/valores e tem mais op&ccedil;&otilde;es.
+
+    <h1>Barra de filtragem r&aacute;pida</h1>
+    
+    Por predefini&ccedil;&atilde;o &eacute; mostrada uma barra de filtragem r&aacute;pida na parte superior de ecr&atilde; principal.
+
+    <br><br><img src="./images/quick_filter_bar_pt.png"><br><br>
+
+    Pode ativar ou desativar a barra no menu <a href="../general/menubar.html">Ver</a>, op&ccedil;&atilde;o
+    "Ocultar barra de filtragem r&aacute;pida") ou premindo a tecla F7.<br><br>
+    
+    Usando esta barra pode filtrar rapidamente por um valor &uacute;nico. Selecione um campo da lista (a primeira pendente). Depois selecione
+	ou escreva um tipo ou valor no segundo campo. 
+    <br><br>
+    Est&atilde;o dispon&iacute;veis as seguintes op&ccedil;&otilde;es na lista pendente:
+    <table>
+        <tr><td>-</td>
+        <td><b>Est&aacute; preenchido</b>. Filtrar pelos itens em que o campo selecionado est&aacute; preenchido com qualquer valor.
+        </td></tr>
+        <tr><td>-</td>
+        <td><b>Est&aacute; vazio</b>. Filtrar pelos itens em que o campo selecionado est&aacute; vazio.
+        </td></tr>
+    </table>       
+    
+    Aplique o filtro clicando em <img src="../general/images/tb_filteraccept_pt.png">.
+    
+
+    <h2>Desfazer um filtro</h2>
+    Para desfazer um filtro clique em <img src="../general/images/tb_filterclear_pt.png">.    
+    
+    <h2>Filtros gravados</h2>
+    Se houver filtros gravados, pode selecionar um filtro da lista "Filtros" (lado direito da barra de filtragem r&aacute;pida). 
+    Por favor leia o pr&oacute;ximo cap&iacute;tulo sobre filtros avan&ccedil;ados e como criar e gravar um filtro.<br>
+
+
+    <h1>Di&aacute;logo Filtrar</h1>
+    <i>Caminho de menu: Filtrar &gt; Filtrar</i><br><br>
+    
+    Abra o di&aacute;logo Filtrar clicando em <img src="../general/images/tb_filter_pt.gif">, dispon&iacute;vel na 
+	<a href="../general/toolbar.html">barra de ferramentas</a> ou premindo <i>Ctrl+F</i>. 
+    O di&aacute;logo tem tr&ecirc;s separadores: "Filtrar", "Ordenar" e "Manter". No separador <i>Filtrar</i> define o filtro. 
+    O separador <i>Ordenar</i> permite ordenar o resultado e o separador <i>Manter</i> permite gravar filtros para uso futuro e 
+    apagar ou editar filtros existentes.<br><br>
+    
+    <img src="./images/filterdialog_pt.png">
+    
+    <h2>Criar um filtro</h2>
+    Um filtro &eacute; feito de entradas. No separador <i>Filtrar</i> pode definir estas entradas. Em baixo define porque campo 
+	deve filtrar, o valor e o operador usado para compara&ccedil;&atilde;o. Ap&oacute;s introduzir a informa&ccedil;&atilde;o, 
+	clique em <b>Adicionar</b> para adicionar a entrada ao filtro.
+    
+    <h3>E/Ou</h3>
+    Na primeira lista pode selecionar o tipo de inclus&atilde;o, "E" ou "Ou". A primeira entrada &eacute; sempre "E", n&atilde;o 
+	pode ser alterada. As pr&oacute;ximas entradas, contudo, pode escolher incluir a entrada como "E" ou como "Ou". 
+    <br><br>Exemplo: quer filtrar filmes com o estado "Visto" ou "Desejado". <br>
+    Assim, o filtro deve ter as seguintes entradas:<br>
+    <i>E</i> Estado Igual a "Visto".<br>
+    <i>Ou</i> Estado Igual a "Desejado". 
+    
+    <h3>M&oacute;dulo</h3>
+    O m&oacute;dulo de onde quer selecionar o campo. Esta lista, na maioria ds vezes, vai conter o m&oacute;dulo atual, como "Programas" 
+    ou "Livros". Contudo, quando um m&oacute;dulo tem m&oacute;dulos-filho, como o m&oacute;dulo "CDs de &aacute;udio" 
+    (tendo o m&oacute;dulo "Faixas de m&uacute;sica") pode selecionar o m&oacute;dulo-m&atilde;e ou o m&oacute;dulo-filho.<br>
+    O m&oacute;dulo selecionado determina quais os campos que ser&atilde;o mostrados na lista pendente.
+    
+    <h3>Campo</h3>
+    Mostra os campos do m&oacute;dulo selecionado. Podem n&atilde;o ser mostrados todos os campos, uma vez que h&aacute; campos pelos quais 
+	n&atilde;o se pode filtrar.
+    
+    <h3>Operador</h3>
+    Aqui pode definir como o valor do campo deve ser comparado. A predefini&ccedil;&atilde;o &eacute; "Igual a", significando que 
+	o valor deve ser exatamente o mesmo. Os operadores explicam-se a si pr&oacute;prios ("Est&aacute; preenchido", "Est&aacute; vazio",
+	"Cont&eacute;m", "N&atilde;o cont&eacute;m"). Note que pode criar m&uacute;ltiplas entradas para o mesmo campo.
+    Isto permite filtrar por um s&oacute; campo usando v&aacute;rios operadores ("Est&aacute; vazio" combinado com "Cont&eacute;m").
+
+    <br><b>Todos os tipos de campo</b>
+    <table>
+        <tr><td>-</td>
+            <td><b>Est&aacute; preenchido</b>.
+                O campo tem um valor qualquer.</td></tr>
+        <tr><td>-</td>
+            <td><b>Est&aacute; vazio</b>.
+                O campo est&aacute; vazio.</td></tr>
+        <tr><td>-</td>
+            <td><b>Igual a</b>.
+                O valor no campo coincide com o valor. 
+				Exemplo: Data Crow <i>Igual a</i> "Data Crow".
+			</td></tr>
+        <tr><td>-</td>
+            <td><b>N&atilde;o igual a</b>.
+                O valor no campo n&atilde;o coincide com o valor. 
+				Exemplo: Data Crow <i>N&atilde;o igual a</i> "Corvo".
+			</td></tr>                
+    </table>
+    
+    
+    <br><b>Campos de texto</b>
+
+    <table>
+        <tr><td>-</td>
+            <td><b>Cont&eacute;m</b>.
+                O valor no campo cont&eacute;m o valor selecionado ou introduzido. 
+				Exemplo: Data Crow <i>Cont&eacute;m</i> "Cro".
+			</td></tr>
+        <tr><td>-</td>
+            <td><b>N&atilde;o cont&eacute;m</b>.
+                O valor no campo n&atilde;o cont&eacute;m o valor selecionado ou introduzido. 
+				Exemplo: Data Crow <i>N&atilde;o cont&eacute;m</i> "Bo".
+			</td></tr>  
+        <tr><td>-</td>
+            <td><b>Come&ccedil;a com</b>.
+                O valor no campo come&ccedil;a com o valor. 
+				Exemplo: Data Crow <i>Come&ccedil;a com</i> "Data".
+			</td></tr>                 
+        <tr><td>-</td>
+            <td><b>Acaba com</b>.
+                O valor no campo acaba com o valor. 
+				Exemplo: Data Crow <i>Acaba com</i> "Crow".
+			</td></tr>  
+    </table>   
+    
+    <br><b>Campos num&eacute;ricos</b>
+
+    <table>    
+        <tr><td>-</td>
+        <td><b>Menor que</b>.
+            O valor no campo &eacute; menor que o valor. Exemplo: 5 <i>Menor que</i> "10".</td></tr>
+        <tr><td>-</td>
+        <td><b>Maior que</b>.
+            O valor no campo &eacute; maior que o valor. Exemplo: 10 <i>Maior que</i> "5".</td></tr>                
+    </table>
+    
+    <<br><b>Campos de data</b>
+
+    <table>    
+        <tr><td>-</td>
+        <td><b>Dias antes</b>.
+            O valor no campo &eacute; um n&uacute;mero selecionado de dias passados.</td></tr>
+        <tr><td>-</td>
+        <td><b>Dias depois</b>.
+            O valor no campo &eacute; um n&uacute;mero selecionado de dias futuros.</td></tr>
+        <tr><td>-</td>
+        <td><b>Hoje</b>.
+            O valor no campo &eacute; hoje.</td></tr>  
+        <tr><td>-</td>
+        <td><b>Meses antes</b>.
+            O valor no campo &eacute; um n&uacute;mero selecionado de meses passados.</td></tr>
+        <tr><td>-</td>
+        <td><b>Anos antes</b>.
+            O valor no campo &eacute; um n&uacute;mero selecionado de anos passados.</td></tr>                 
+    </table>    
+    
+    <h3>Valor</h3>
+    A forma como este campo se representa a si pr&oacute;prio depende do campo que selecionou. Ou cont&eacute;m uma lista de valores fixos 
+	ou permite-lhe introduzir um valor.
+    
+    <h3>Editar entradas de filtro</h3>
+    Pode modificar qualquer entrada na lista com um duplo clique. Pode ent&atilde;o editar o filtro na parte inferior da janela.
+	Depois de fazer as altera&ccedil;&otilde;es desejadas pode adicionar a entrada clicando em "Adicionar".
+    
+    <h3>Remover entradas de filtro</h3>
+    Pode remover entradas de filtro com um duplo clique.
+
+    <h2>Ordenar</h2>
+    No separador <b>Ordenar</b> pode definir como o resultado deve ser ordenado. Isto &eacute; explicado na sec&ccedil;&atilde;o 
+	<a href="../items/sort.html">Ordenar</a> desta ajuda.
+    
+    <br><br><img src="./images/filterdialog-sort_pt.png">
+    
+    <h2>Gerir filtros</h2>
+    Para gerir os filtros, v&aacute; ao separador <b>Gerir</b>. Aqui pode gravar um filtro para utiliza&ccedil;&atilde;o futura. 
+	Os filtros gravados v&atilde;o aparecer na <b>Barra de filtragem r&aacute;pida</b>.
+    
+    <br><br><img src="./images/filterdialog-manage_pt.png">
+    
+	<h3>Gravar um novo filtro</h3>
+	Pode gravar um filtro para utiliza&ccedil;&atilde;o futura. No separador <b>Gerir</b> h&aacute; uma &aacute;rea chamada <b>Gravar filtro</b>.
+	Introduza um nome para o novo filtro e clique em <b>Gravar</b>. O filtro fica gravado e pode ser selecionado da lista pendente neste 
+	separador ou na barra de filtragem r&aacute;pida.
+	
+	<h3>Modificar um filtro existente</h3>
+	Selecione o filtro que quer modificar da lista na &aacute;rea <b>Filtros existentes</b> e clique em <b>Editar</b>. Abre o separador 
+	<b>Filtrar</b>, mostrando as entradas do filtro selecionado. Fa&ccedil;a as altera&ccedil;&otilde;es. Volte ao separador <b>Gerir</b>
+	para gravar as altera&ccedil;&otilde;es efetuadas.
+
+	<h3>Apagar um filtro existente</h3>
+	Selecione o filtro que quer apagar na lista pendente da &aacute;rea <b>Filtros existentes</b> e clique em <b>Apagar</b>.
+	
+	<h3>Aplicar um filtro existente</h3>
+	Pode aplicar um filtro gravado selecionando-o na barra de filtragem r&aacute;pida ou na lista pendente na &aacute;rea 
+	<b>Filtros existentes</b> do separador <b>Gerir</b> e clicando em <b>Aplicar</b>.
+
+  </body>
+</html>

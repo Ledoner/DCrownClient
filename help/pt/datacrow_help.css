@@ -1,0 +1,58 @@
+BODY, TD, TABLE {
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-size: 16pt;
+	text-align: left;
+	margin-left: 5px;
+	margin-right: 5px;
+    color: #000000;
+}
+
+TABLE, TD, TR {
+    vertical-align: top;
+}
+
+TD, TR {
+    padding-left: 2px;
+}
+
+H1, H2, H3 {
+	font-family: Arial, Verdana, Geneva, Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+IMG {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+H1 {
+    background-color: #D8D8D8;
+	font-size: 20pt;
+	color: #000000;
+}	
+
+H2 {
+    background-color: #E6E6E6;
+	font-size: 18pt;
+	color: #000000;
+}	
+
+H3 {
+	font-size: 16pt;
+	color: #000000;
+}
+
+A {
+    font-family: Arial, Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+	text-decoration: underline;
+	color: #0000FF;
+}
+
+A:Hover {
+    font-family: Arial, Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+	text-decoration: underline;
+	color: #0000FF;
+}

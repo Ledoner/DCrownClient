@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data-crow-objects xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="software_storagemedium.xsd">
+    <storage-medium>
+        <item>Storage Media</item>
+        <alternative-names>;BLU-RAY;BLURAY;</alternative-names>
+        <created>2009-10-17</created>
+        <id>101711653233619</id>
+        <icon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADXElEQVR42mWTbWiVZRjH//fz/pz3s/N4tp3NzSnZlKkZmdSkYUtqUCu1HIVU9MFP0ocYfSjoS0FFSKFEZUUZm0SWGwMtBGVIK0ebBdVmM/V4Qk+2Y3Pn7Xm5z/M8Xc+BYqMbbm64X373df2v/8V838fSkc/nW8bPTjyTvfZXz2KVt0MQzGQ8NHNH55qx++/rPi7LMl96n/0L8DxPOPblyMsT03Mv/V2saJ4goEb7Lq2QZajhCG7ryMw9dlfns5s3bvh+GYAm++CjI0MTP/z2FJMkMEmGJwrgxHZpZYqCSLIBMSOF5IqU3duo7tp295aT/wGOfTXy4skz59906UEAEFQVvijBobOawCCHwkim04imUtDjcai6XHyyPbGpbWVrlhUKBePAu0PZhZIZrtEDlzEwWYGiyXA8gDMglEgikWlBOJGAqOtg9EE4Pzf8fP+De9nx0bH9Z6cuHWL0IyQRgUKMeYhogr92ZROlwfys5TPNaGJiLAGfIvRocm7bg12ZNDv43sefZ29UB0SiBqFLigSFcW/3A/d61VJp2Hac231B2Do+bzEvZsBXSB9BJG1EPMT/3MFef+f9czeK7tYAIGoaFFXC2saI3725a7SjrW23ZVmR/Hzh1shMjpWUMHO0UF2fQOR7ChefZm8cOnzq2kJth0DkIDdZFtHeoPs7e7svy4LQZ5nWFovzocmihytcYBXPI4AIEKTn5twT7MPPjr710x/FwUA4ULl8IsPjft/G1bizaz3cmoMLtyy2qEaR8yTMLxZR94jrYl/UXsemps93Hzn947cu5VULDqhspm1TKgo6V7Ug3tSEosfAQzG4JJ5P92yKQrw8O/vaIz3r6z549fDQmVzJ3R4IU+W8Xv8VzY3IrOqo13+hXKnDeVDiwCcU/rbrP+/t690+XAdkr15dfeDEd5OFqm2YFFooFkOcXGc0NyNFEVQcDrIEzMBYZLb0zOQXg3v6B5b1wq+zFza9/c25sZsQ21L0OJoyEE0mkDAMOAS1QGlQ6JGp8aMvDDz6nKqq9jJAMK7n85lPRr9+JSdH90Tb1ySjDSmE4jFYlYpf/WV6ZoPqHny8/+FPFUVx/teNwQiayjRNvVwuRy7+fmndYrmSVmWRpw3jSmtra07XdVPTNGtpO/8DTYpyJyn8irAAAAAASUVORK5CYII=</icon>
+        <item>Storage Media</item>
+        <label>Blue-Ray Disc</label>
+        <modified>2009-10-17</modified>
+        <name>Blue-Ray Disc</name>
+    </storage-medium>
+    <storage-medium>
+        <item>Storage Media</item>
+        <alternative-names>;CD;CDROM;CDR;CD-R;CD-RW;CDRW;</alternative-names>
+        <created>2009-10-17</created>
+        <id>101712523703766</id>
+        <icon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA3XAAAN1wFCKJt4AAAAB3RJTUUH1QQBETU1Kn0pSwAAAzBJREFUOMttk8tPXGUYxn/fd875OGfOQOdSGChlLg2LirULTWmiG9rEbTWa1pRSddMYhLUr/wCNWyi404jYpLps2KhFodi5QCS2LGAIgQQoMIMXmA5zrm5KYojv8sn7y7N4nkdw4oaGBy8DHwJ9QO6FvAZMA1+Njozl//svTsBjyUTy9du3P9jv6Oh41bKsZoB6vV7b2tp8MjHxTaS6X50bHRkb5H+cpx7NzX7neV6wtLQULiwshKVSKVxcXAzL5XJYrVZD3/eD2dmZqaHhwaljTjt27u8fEC+d77mRz+flwcEBvu8jhEAIgWEYSClpNBoim811JxKJ/YhtvlYslB5oQ8ODl5OJ5Me3+geuLi8vS9/3qdUOOawdUKsdUK8/R9M1mpRC03TCMKS7u7szn38ceeXihXmtt/fSp3fufJR2HTdVr9dxXQddN2hubiHV1k5raxuJRJJKdZcm1YTjuPi+T6ot5S4u/m7pQN/ZzrO5SqWCUgrXc4nazayurpIv/AYQ3rj+nsjlzrFSXiYRT+J5HmfOdJ4G+iSQM01TKaUwTRMhIB6Pky88DiOWfdH3/dbvf7gfxGIxqtUKnufhOA6GYRhATj+OUylFEATouo5t20gpgj//2t8A0DTNAUzHcfA8DyEEvu8LQEhgrdFoeEoplFKcOhWj0Wjw7jvXpVLqma7rq29de1utr6+jVBOu6+J5HoeHhz6wpgPT29vbyXQ63QrQnmpnd2+Hnp4e8flnX5iAubGxwc8PfySXPYfrukQiEXZ2d+rAQ62391KlvLpy7Urf1bimaei6jmVa7FX2mJ8v8uTJH1SqFdpaUwghkVLS1dXFvXuT/9SP6p9oxUJp8+ULPedjsVhHuivdIoRASg1dN4hGm4nHE9h2FCklR0dHZLNZisXC30+Xnt6/Ozr+pQZQLJQeWBHzTduOns5kMqaUEsdxCIKAMAwBsCyLTCbD3Nwj55dfp2fujo7fBDTtuNPFQunbaHMkOzs7k0ul2pVpmrKlpQXLsgDY3Nr0Jycnnq+UV74eHRm7+QILxYll6rcG+t+w7cj7uqZfEVJ0CSFEEASbnuf9ZBjG+Mk5/wu6lVFuSpi0OgAAAABJRU5ErkJggg==</icon>
+        <item>Storage Media</item>
+        <label>CD-ROM</label>
+        <modified>2009-10-17</modified>
+        <name>CD-ROM</name>
+    </storage-medium>
+    <storage-medium>
+        <item>Storage Media</item>
+        <alternative-names>;DVD;DVD-R;DVD+R;DVDRW;DVDR;</alternative-names>
+        <created>2009-10-17</created>
+        <id>101771926496339</id>
+        <icon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADKklEQVR42mWTXWgUVxTH/3fm7szukmQ35kPdfE2aFFFUBo02FWtDExGVFu1D8dFCXwqC8TFP6oPGFkV99iE+FIWKtCj4Um0WLG3jR2KMITXGZIkmbrdZ98v52NmZuZ5dpUQ9l8PlzJzzu/d8XIb3ZHBwUKPtMKkuGHqYxABPxMl+QHp+YGAgsdyfLQuM0nZ0ZW1jf3uLBh5WYMsu5OogssJGPpdDeuY5nKXCOYIceQfwNni4u32zXh+pQ7aYR0n1UVQ8sGoV/3kGXkklyLVhOIklFO4nLhLk2+WAs9u0rv4GvgIOnWrLDky5CDPgwCfAEjNhBQFLFQi6EkILFlIPZo4T5BijYL0psnpsR+MW+K4Hm04yuQ2jrGoJTjSAJDNghIEQOGqKMqJSCNO3R1E0rPYyYKjv488ORkQVVKZUIAWYeO4kocSqsEjWI+cFmlfFsNILIyIUSJYH17AxPj5+pAwY+6Z7n+7aDphPGdkC6ZdpfNS7FoGoCiEEpvOLGPl7BBubOhGWVHAhlzuD3/76Pc5+PPGD2LN9FxWDQfgCwvVRklw0b9AwOTl5kXOudXZ29tz74w5aGpqgyHQD6m9QUXF5+GqcnTp5Suzu20XlJACtku/CYz601jZMTU2VAVEC7Ht8cwJaUxvIJlcGOSBjaPhSvJLC3v1f6o5XgscFZV/Ew/kpHPjkK/hGqZKCnPWxMJJAc0cLJIXTTX3YfhE/3b5SAQx1fdF9MFxfDRGWYVELX9HgpJ4l0cFXAwUXNckAtOY2BEIKQJPp2y6e5uZx6168UkS9LtYwtn7vVniyDy5xXL/6CKA8mQO4tgfuyvh+53b8encC/2byiFSF8Dgxi5ThXfh/kNZ9rvevWt8KyeW4cmkUe3ZuwJPpFF4s5iqQEA+gJhisAIIsg1QmO/okzRfeGeWNPV26Gm3EzVv/QGYStFg9+j5dhz/vzCCXNdG7aQ3O/XwDmZzxrOCwXyjm8gePqS4W619BjykUqoYqq8gXLMwmkjBNCyUzjWwuPzqb4afJd450guE9+frQmQMqF9/RD12SUFP+RkXPe4LlLJfNeT416o1QoXDtNZYOcEYYy1JhAAAAAElFTkSuQmCC</icon>
+        <item>Storage Media</item>
+        <label>DVD-ROM</label>
+        <modified>2009-10-17</modified>
+        <name>DVD-ROM</name>
+    </storage-medium>
+    <storage-medium>
+        <item>Storage Media</item>
+        <alternative-names>;Diskette;FDD;floppydisk;</alternative-names>
+        <created>2009-10-17</created>
+        <id>101741582920665</id>
+        <icon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAHDSURBVDiNlZO/ixNBFMc/M7u5hOQUlDRGiCwcXCMoIhyIVoqlhbXYHKJ/g2JnpZ0o/gOihdhYpMmdWKiIWFyrFoFcYeNuk+wym533xiJ3+SEnxC8zw4Ph++XzHjyzde/1WxG5yVSBuRbrI/+sta9iEbnxcPsqWx+egqoJqqBKCGo4rFVBZV6HwM71Bzx78/l2DCAa+P3iMUGEVaXX7gMQA0ZEOPXoOYS/qf+tysssAC+Bk7furmwGkHffFwMUEWE4HK5kTpJkicCIKFEUkSTJ6gRe5wRyMLzBYLCSudvtLs+gOkj7H4LlFryy/eQjjewrUbF/tMNMn0njDHnrLBunj88JvAhMCqJinyuXL1Gv16nVarNrraUsS/I8Z3f3PfnaBt63ALCHOKqKtRHtdpt+v0+v16PZbCIijMdjRqMRRVGAsagqfrEFlYCqYgy0Wq0ZdZqmlGWJcw7nHGVZEkIgqFBVC0OcVJ7YTjcky7JZQJZlS2bnHAFQVSrvpwHWmC97P3+d3+ysN8ZZIE1TOp0O3nvSNF0yO+cgwIljazMCc/HOy3Vj+FS3fvNc/K1uTEwgMD0Hu7GwI4bAnr+Qi6kbkfDjD/3zDzpnSVtRAAAAAElFTkSuQmCC</icon>
+        <item>Storage Media</item>
+        <label>Floppy</label>
+        <modified>2009-10-17</modified>
+        <name>Floppy</name>
+    </storage-medium>
+    <storage-medium>
+        <item>Storage Media</item>
+        <alternative-names>;Harddisk;Harddisk;Disk;</alternative-names>
+        <created>2009-10-17</created>
+        <id>101732715115429</id>
+        <icon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH1QQFDzUI6898dwAAAIx0RVh0Q29tbWVudABNZW51LXNpemVkIGljb24KPT09PT09PT09PQoKKGMpIDIwMDMgSmFrdWIgJ2ppbW1hYycgU3RlaW5lciwgCmh0dHA6Ly9qaW1tYWMubXVzaWNoYWxsLmN6CgpjcmVhdGVkIHdpdGggdGhlIEdJTVAsCmh0dHA6Ly93d3cuZ2ltcC5vcmdnisdHAAABUElEQVQ4y6WTTW7CMBCFv6BApCDLySZqJPZwNyTEDdrekBUnQCzYQWwQ+ZnpIuAo7aJVmYXtGc97fjO24UWLNtv1B/D+T/wnm+1a/2POOd1s1xoDiAjn8xlVhSgC1bFMQJ9DBKDMZjMAYgAVpRPps0UGABARIap9jKjH985AICpIJ0QPkAKoPgDKUxiqPbHQqw0KVMnzjNPp9KfOZVlG13UATJ5B5xxFUfwKLoqCuq6DH5rovQ8JANfrlaqqADDGkKYpk8mEy+WC9x5jzECQJAmLxWJ0krUWay0A3nvquuZ2u/1QFAPsdjuaphlttG1LHMdh/d3yPB/3oG1b9vs9x+ORqqpQVVSVJEk4HA4YY8LsnMM5NxCoKiLCfJ4ynU7DIwFomgaVnkxF+tzHDYQSsizDWktZlgDc73eA0O3laomIsFytEBHeyjKU/PpnetW+AJdV7Sa2bLULAAAAAElFTkSuQmCC</icon>
+        <item>Storage Media</item>
+        <label>HD</label>
+        <modified>2009-10-17</modified>
+        <name>HD</name>
+    </storage-medium>
+    <storage-medium>
+        <item>Storage Media</item>
+        <alternative-names>;USB;Stick;</alternative-names>
+        <created>2009-10-17</created>
+        <id>101770090584524</id>
+        <icon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACQUlEQVR42mNkoBAwInNs/dINgFQ+n4BQAEji44d3hYc3zVxA0ACgRgd2Tu56RTU9B2U1LYZDO9cxODq7Mpw5eYTh2bNnIEMm4DTA3C22RklNu1lUVp3h3dNbDMFRKQzvXj5kUFaQYeDmYGZYv2Ejw+GjJxcADUnEaoCOhdemfdtW+W47dIXhDzMvg6K8DAMPJxMDL1AzDyczmJ46ewnDzv3HNwDVJwIN+oBhQGt7p6+xnhrDhSu3GMSlFYGamOCauYBsZiZGhjWb9zFMnrPqAlCPI7IhjJzc/Hm6Vj5Zqamp6q4OFgwnTp5mMDbUZZAQ5mHgZGdmYEIK5h37jjO0T1z4AWrIBVggqgGxnaF9cGJaRo6VvY05w+8vrxgUZEQZeHm4MPwMcmVN+4wPn798A3lnA8x8uCFJadlWtlbmDE/uX2dQUxBnUFGUwTBg+97jDCfOXjmweXGPI3I6gBsSl5xtZWlhyvDuxUMGFRl+sOT2vccYrt64w6CrocggIyXGsO/oxQOT24pRDEAxJDoxy8rMzJTh/NkzDO9fPWJQl+VjkJYQgSvcsOvkh9OX7iiiG4BiSHhcptUvJh6Gry9vMmiK/2OQlpFhYGdnByv68fMXw7W7Lz5gMwDFEBEpFauvH1+/VZMXYTDVURQWEBJl4OQVYnj4/B0DKwszAy4DQEASiF2BmA2Iv3DxCnLaufqn2FiZW334+p/h25f3N0+euViCzwAQEIbSb6EG2YvLqtn8////+qsnt88B+Q8IGUAQAAAGPcfLqb0KzAAAAABJRU5ErkJggg==</icon>
+        <item>Storage Media</item>
+        <label>USB Stick</label>
+        <modified>2009-10-17</modified>
+        <name>USB Stick</name>
+    </storage-medium>
+</data-crow-objects>

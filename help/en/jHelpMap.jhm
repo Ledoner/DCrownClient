@@ -1,0 +1,84 @@
+  <?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+  <!DOCTYPE map PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 1.0//EN" "http://java.sun.com/products/javahelp/map_1_0.dtd">
+  <map version="1.0">
+    <mapID target="dc" url="index.html"/>
+    <mapID target="dc.general.introduction" url="general/index.html"/>   
+    <mapID target="dc.general.wheretostart" url="general/wheretostart.html"/>    
+    <mapID target="dc.general.starting" url="general/starting_datacrow.html"/>
+    <mapID target="dc.general.screenlayout" url="general/screen_layout.html"/>
+    <mapID target="dc.general.grouping" url="general/grouping_pane.html"/>
+    <mapID target="dc.general.menubar" url="general/menubar.html"/>
+    <mapID target="dc.general.toolbar" url="general/toolbar.html"/>
+    <mapID target="dc.general.quickview" url="general/quickview.html"/>
+    <mapID target="dc.general.defaultmodules" url="general/default_modules.html"/>
+    <mapID target="dc.general.log" url="general/log.html"/>    
+    
+    <mapID target="dc.items.views" url="items/views.html"/>
+    <mapID target="dc.items.tableview" url="items/views_tableview.html"/>
+    <mapID target="dc.items.cardview" url="items/views_cardview.html"/>
+    <mapID target="dc.items.templates" url="items/templates.html"/>
+    <mapID target="dc.items.wizard" url="items/wizard.html"/>
+    <mapID target="dc.items.itemform" url="items/itemform.html"/>
+    <mapID target="dc.items.createmultiple" url="items/create_multiple.html"/>
+    <mapID target="dc.items.itemform_property" url="items/itemform_property.html"/>
+    <mapID target="dc.items.itemform_multiref" url="items/itemform_multireference.html"/>
+    <mapID target="dc.items.mergeitems" url="items/merging_property_items.html"/>
+    
+    <mapID target="dc.items.sort" url="items/sort.html"/>
+    <mapID target="dc.items.administration" url="items/administration.html"/>
+    
+    <mapID target="dc.charts" url="charts/charts.html"/>
+
+    <mapID target="dc.filters" url="filters/filters.html"/>
+    <mapID target="dc.onlinesearch" url="onlinesearch/onlinesearch.html"/>
+    <mapID target="dc.loans" url="loan/loan.html"/>
+    <mapID target="dc.loanadmin" url="loan/loanadmin.html"/>
+    <mapID target="dc.reports" url="reports/reporting.html"/>
+    <mapID target="dc.security" url="security/security.html"/>
+
+    <mapID target="dc.settings.fields" url="settings/fields.html"/>
+    <mapID target="dc.settings.font" url="settings/font.html"/>
+    <mapID target="dc.settings.regional" url="settings/regional.html"/>    
+    <mapID target="dc.settings.fileassociations" url="settings/fileassociations.html"/>
+    <mapID target="dc.settings.general" url="settings/general.html"/>
+    <mapID target="dc.settings.http" url="settings/http.html"/>
+    <mapID target="dc.settings.colors" url="settings/colors.html"/>
+    <mapID target="dc.settings.module" url="settings/module.html"/>
+    <mapID target="dc.settings.laf" url="settings/laf.html"/>
+    <mapID target="dc.settings.quickview" url="settings/quickview.html"/>
+    <mapID target="dc.settings.filehash" url="settings/filehash.html"/>
+    <mapID target="dc.settings.cardview" url="settings/cardview.html"/>
+    <mapID target="dc.settings.tableview" url="settings/tableview.html"/>
+    <mapID target="dc.settings.itemformsettings" url="settings/itemformsettings.html"/>
+    <mapID target="dc.settings.drivemappings" url="settings/drivemappings.html"/>
+    <mapID target="dc.settings.directoriesasdrives" url="settings/directoriesasdrives.html"/>    
+
+    <mapID target="dc.modules" url="general/default_modules.html"/>
+    <mapID target="dc.modules.create" url="modules/createmodulewizard.html"/>
+    <mapID target="dc.modules.alter" url="modules/altermodulewizard.html"/>
+    <mapID target="dc.modules.fields" url="modules/definingfields.html"/>
+    <mapID target="dc.modules.relate" url="modules/relatemodulewizard.html"/>
+    <mapID target="dc.modules.delete" url="modules/deletemodulewizard.html"/>
+    <mapID target="dc.modules.copy" url="modules/copymodulewizard.html"/>
+    <mapID target="dc.modules.export" url="modules/exportmodulewizard.html"/>
+    <mapID target="dc.modules.import" url="modules/importmodulewizard.html"/>
+
+    <mapID target="dc.tools.wizard" url="tools/wizard.html"/>
+    <mapID target="dc.tools.files" url="tools/files.html"/>
+    <mapID target="dc.migration.wizard.importer" url="tools/item_import.html"/>
+    <mapID target="dc.migration.wizard.exporter" url="tools/item_export.html"/>
+    <mapID target="dc.tools.fileinfoimport" url="tools/fileinformationimport.html"/>
+    <mapID target="dc.tools.massupdate" url="tools/mass_update.html"/>
+    <mapID target="dc.tools.databaseeditor" url="tools/database_editor.html"/>
+    <mapID target="dc.tools.updateall" url="tools/update_all.html"/>
+    <mapID target="dc.tools.findreplace" url="tools/findreplace.html"/>
+    <mapID target="dc.tools.backup_restore" url="tools/backup_restore.html"/>
+    <mapID target="dc.tools.titlerewriter" url="tools/title_rewriter.html"/>
+    <mapID target="dc.tools.associatenamerewriter" url="tools/associate_name_rewriter.html"/>
+    <mapID target="dc.tools.autonumbering" url="tools/auto_numbering.html"/>
+    <mapID target="dc.tools.drivemanager" url="tools/drivemanager.html"/>
+    <mapID target="dc.tools.filerenamer" url="tools/filerenamer.html"/>
+    <mapID target="dc.tools.resourceeditor" url="tools/resource_editor.html"/>
+    <mapID target="dc.tools.icalendar_export" url="tools/icalendar_loan_export.html"/>
+    
+  </map>

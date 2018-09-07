@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="build" name="data crow">
+
+    <target depends="build-datacrow" name="build"/>
+
+    <path id="datacrow.class.path">
+        <fileset dir="../datacrow-core/lib/">
+        	<include name="commons/*.jar"/>
+            <include name="html/*.jar"/>
+            <include name="jacksum/*.jar"/>
+            <include name="jaudiotagger/*.jar"/>
+            <include name="json/*.jar"/>
+            <include name="jebml/*.jar"/>
+        	<include name="log4j/*.jar"/>
+            <include name="metadata/*.jar"/>
+            <include name="pdf/*.jar"/>
+            <include name="xml/*.jar"/>
+        	<include name="xml-rpc/*.jar"/>
+            <include name="zip/*.jar"/>       
+        </fileset>
+        <fileset dir="./lib/">
+            <include name="*.jar"/>
+            <include name="apache-tika/*.jar"/>
+        	<include name="chart/*.jar"/>
+        	<include name="javahelp/*.jar"/>
+        	<include name="laf/*.jar"/>
+        </fileset>  
+    </path>
+    
+    <manifestclasspath jarfile="datacrow.jar" property="manifest.class.path">
+        <classpath refid="datacrow.class.path"/>
+    </manifestclasspath>
+
+    <target name="build-datacrow">
+    
+        <mkdir dir="_classes/" />
+        <javac srcdir="_source/" destdir="_classes/" debug="true">
+            <classpath refid="datacrow.class.path"/>
+        </javac>
+        
+        <copy todir="_classes/">
+            <fileset dir="_source/">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+
+        <jar basedir="_classes" manifest="manifest.mf" jarfile="datacrow.jar"  />
+
+    </target>
+</project>

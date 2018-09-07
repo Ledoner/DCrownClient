@@ -1,0 +1,100 @@
+<html>
+  <head>
+        <link href="../datacrow_help.css" rel="stylesheet" type="text/css">
+  </head>
+
+<body>
+
+	<h1>File Renamer</h1>
+	<i>Menu path: Tools &gt; File Renamer</i><br><br>
+	
+    With this tool files can be renamed and/or moved, using the information entered in Data Crow.
+    Files are renamed by using a 'pattern'. A pattern is a small script made up out of tags which
+    are replaced by actual values when used &amp; applied. 
+
+    <br><br><img src="./images/filerenamer.png" alt="" border="0"><br><br>
+    
+    <h2>Settings</h2>
+    In the Settings you can indicate for which items the files will be renamed.
+    
+    <br><br><img src="./images/filerenamer_which.png" alt="" border="0"><br><br>
+    
+    <table cellspacing="2" cellpadding="2" border="0">
+        <tr><td>-</td>
+            <td>All items currently in the view</td></tr>
+        <tr><td>-</td>
+            <td>Only the selected items</td></tr>
+    </table> 
+    
+    <h2>Pattern</h2>
+    The pattern field is where the new path and name of the files is determined.
+    
+    <br><br><img src="./images/filerenamer_pattern.png" alt="" border="0"><br><br>
+    
+    The Pattern field enables you to create a valid pattern by using the
+    right-click menu. The right-click menu offers 4 options, which are explained below.
+    
+    <br><br><img src="./images/filerenamer_menu.png" alt="" border="0"><br>
+    
+    <h3>Insert Text</h3>
+    Selecting this menu option will display a small dialog where a static text can be entered. 
+    By default all characters which would make a filename invalid, such as the ':' character, 
+    are disallowed. The text will be used 'as is' when this pattern is applied.
+
+	<h3>Insert Field</h3>
+	Select the field to insert. You'll notice the following text is inserted [&lt;fieldname&gt;].
+	This 'tag' will be replaced by the actual value for this field when the pattern is applied.
+
+	<h3>Insert Directory</h3>
+	Inserts a directory sign, indicating a new directory should be created. Everything prior to
+	the directory sign is now part of the directory structure instead of the filename.
+
+	<h3>Remove</h3>
+	Removes the selected pattern part.
+    
+    <h2>Saving a Pattern</h2>
+    The 'Existing Patterns' list shows saved patterns. To add a pattern to this list simply press
+    the <img src="images/save.png"> button. 
+    
+    
+    <h2>Managing saved Patterns</h2>
+    The <img src="images/remove.png"> button removes the currently selected existing filter, 
+    the <img src="images/accept.png"> button applies the currently selected existing filter. 
+
+    
+    <h2>Path Configuration</h2>
+	
+	<h3>Use original location</h3>
+	This is the default option. Files will be renamed from within their current location. 
+	If the pattern contains a directory structure, the file will be move relatively to its 
+	current location.
+	
+	<h3>Use alternate location</h3>
+	You can also choose to move the file to an altogether different location. This is a nice
+	option if you have for example mp3 files scattered over multiple hard drives and would like
+	to to move them all to a different location.
+
+		
+	<h1>Renaming your files</h1>
+	
+	After you have created a pattern press 'start' to start renaming your files. 
+	
+	<h2>Preview</h2>
+	For your convenience Data Crow will first show you a preview of what the result might look like.
+	The actual result might differ as the file to rename has to exist. If it does not exist it is
+	simply skipped.
+
+	<h3>Excluding items</h3>
+	The preview window also allows you to exclude items. 
+	Select the items you want to remove by clicking on them in the table, right-click and select
+	'remove' from the popup menu. The removed items will be excluded by the file renamer task. 
+	
+	<h3>Verify and continue</h3>
+	Press 'start' to continue the renaming process if the preview is to your liking. 
+	Press 'cancel' to stop the process.
+	
+	<h2>Stopping</h2>
+	At any time you can press 'stop' to cancel the renaming process.
+    
+</body>
+</html>

@@ -1,0 +1,81 @@
+<html>
+  <head>
+        <link href="../datacrow_help.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    
+	<h1>Definir campos</h1>
+	
+    Uma parte importante de definir um m&oacute;dulo consiste em definir os campos que lhe pertencem. No ecr&atilde; v&ecirc; duas tabelas, 
+	uma com os campos predefinidos (para o tipo de m&oacute;dulo escolhido), outra com os campos rec&eacute;m criados. Os campos predefinidios 
+	n&atilde;o podem ser alterados ou removidos. Contudo, pode criar, alterar e remover campos da sec&ccedil;&atilde;o <b>Novo campo</b>
+	(parte inferior do ecr&atilde;). 
+	
+	<br><br><img src="./images/fieldoverview_pt.png" /><br><br>
+	
+	<table cellspacing="2" cellpadding="2" border="0">
+    	<tr><td>-</td>
+    		<td><b>Remover campo</b>: remove o campo selecionado da sec&ccedil;&atilde;o <b>Novo campo</b>.</td></tr>
+    	<tr><td>-</td>
+    		<td><b>Adicionar campo</b>: abre o di&aacute;logo <b>Definir campo</b> para criar um novo campo.</td></tr>
+    	<tr><td>-</td>
+    		<td><b>Alterar campo</b>: pode ser usado para alterar um campo existente. Ao alterar modos existentes, as 
+			altera&ccedil;&otilde;es que pode fazer aqui s&atilde;o limitadas. Em todo o caso, a maioria das altera&ccedil;&otilde;es 
+			pode ser feita usando as defini&ccedil;&otilde;es, como nas <a href="../settings/fields.html">Defini&ccedil;&otilde;es gerais do campo</a>.</td></tr>
+	</table>
+	
+	<h2>Criar um campo</h2>
+	
+	Para criar um novo campo clique em <b>Adicionar campo</b>. Abre o seguinte di&aacute;logo: 
+	<br><br><img src="./images/dialog_definefield_pt.png" />
+	
+	<h3>Nome</h3>
+	O nome do campo para ser mostrado no ecr&atilde;. Para m&oacute;dulos existentes o nome pode ser substitu&iacute;do definindo um 
+	r&oacute;tulo nas <a href="../settings/fields.html">Defini&ccedil;&otilde;es gerais do campo</a>.
+	
+	<h3>Pode ser procurado?</h3>
+	Indica se os utilizadores podem procurar/filtrar por este campo.
+	
+	<h3>Requerido</h3>
+    Pode marcar um campo como requerido. Ao gravar, este campo ter&aacute; sempre de estar preenchido. O item s&oacute; ser&aacute; 
+	gravado quando todos os campos requeridos estiverem preenchidos. Para m&oacute;dulos existentes 
+	altere esta op&ccedil;&atilde;o nas <a href="../settings/fields.html">Defini&ccedil;&otilde;es gerais do campo</a>.
+	
+    <h3>Descritivo?</h3>
+    Quando um campo est&aacute; marcado como descritivo (ou uma combina&ccedil;&atilde;o de v&aacute;rios campos), o valor deste campo 
+	&eacute; usado para representar os itens. Para m&oacute;dulos existentes 
+	altere esta op&ccedil;&atilde;o nas <a href="../settings/fields.html">Defini&ccedil;&otilde;es gerais do campo</a>.
+
+    <h3>&Eacute; campo chave</h3>
+    A combina&ccedil;&atilde;o de campos chave ser&aacute; usada para verificar se o item j&aacute; existe. 
+	Leia <a href="../settings/general.html">mais acerca disto</a>. Para m&oacute;dulos existentes 
+	altere esta op&ccedil;&atilde;o nas <a href="../settings/fields.html">Defini&ccedil;&otilde;es gerais do campo</a>.
+	
+	<h3>Separador do formul&aacute;rio de item</h3>
+	Define em qual separador do formul&aacute;rio de item ser&aacute; colocado o campo. Para m&oacute;dulos existentes 
+	altere esta op&ccedil;&atilde;o nas <a href="../settings/fields.html">Defini&ccedil;&otilde;es gerais do campo</a>.
+	
+	<h3>Comprimento m&aacute;ximo do texto</h3>
+	O comprimento m&aacute;ximo dos dados para este campo (em carateres).
+	
+	<h3>Tipo de campo</h3>
+	H&aacute; uma grande variedade dispon&iacute;vel de tipos de campos e muitos falam por si pr&oacute;prios. Contudo, os campos
+	de refer&ecirc;ncia, &uacute;nica ou m&uacute;ltipla merecem mais alguma explica&ccedil;&atilde;o. Quando seleciona um destes 
+	campos, vai ficar ativa uma lista de refer&ecirc;ncias. Com este tipo de campos, cria uma refer&ecirc;ncia a outro m&oacute;dulo.
+	Se selecionar um campo de refer&ecirc;ncia &uacute;nica, o Data Crow cria uma lista de itens do m&oacute;dulo selecionado (por 
+	exemplo, as categorias de programas). S&oacute; um destes itens pode ser selecionado. Se optar por um campo de refer&ecirc;ncia 
+	m&uacute;ltipla, o campo pode conter mais de um item de propriedade (por exemplo, os g&eacute;neros musicais para CDs de 
+	&aacute;udio). &Eacute; criado um campo com um di&aacute;logo de sele&ccedil;&atilde;o de item.	
+	<br><br>
+	
+	Outra nota sobre campos de refer&ecirc;ncia: quando faz refer&ecirc;ncia a um m&oacute;dulo de propriedade, os itens deste m&oacute;dulo
+	podem ser geridos no menu <b>Ferramentas</b>. Uma refer&ecirc;ncia a qualquer outro tipo de m&oacute;dulo torna o m&oacute;dulo 
+	referenciado um subm&oacute;dulo do m&oacute;dulo atual. Este &eacute; o caso, por exemplo, dos atores no m&oacute;dulo <i>Filmes</i>. 
+	O m&oacute;dulo <i>Atores</i> &eacute; referenciado pelo m&oacute;dulo <i>Filmes</i>, tornado-se um subm&oacute;dulo de <i>Filmes</i>.
+	O subm&oacute;dulo &eacute; mostrado na barra de m&oacute;dulos quando seleciona o m&oacute;dulo que o referencia.
+	
+	<h3>M&oacute;dulo de refer&ecirc;ncia</h3>
+	Usado s&oacute; para campos de refer&ecirc;ncia. Veja as explica&ccedil;&otilde;es acima.
+
+  </body>
+</html>

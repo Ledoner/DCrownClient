@@ -1,0 +1,47 @@
+<html>
+  <head>
+        <link href="../datacrow_help.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+
+  <h1>Item Import Wizard</h1>
+  <i>Menu path: Tools &gt; Item Import Wizard</i><br><br>
+  
+  The item import wizard allows you to import items from an external file. The items are directly imported into the database. Before the wizard is started you will
+  have to select the module into which you would like to import the items.
+
+  <h2>Formats</h2>
+  Select the type of import you would like to perform. For XML files select the XML Import. For text files select the CSV import. A valid CSV contains one item per
+  line. The values of each of the items are separated by a specific character.
+
+  <h2>Configuration</h2>
+  Depending on the format you have chosen some of the configuration options might not be available.
+
+  <table cellspacing="2" cellpadding="2" border="0">
+    <tr><td>-</td>
+        <td><b>Character Set</b>. 
+        Select the character set or encoding. In most cases UTF-8 will be sufficient. In case you end up with items containing strange characters
+        or lots of questions marks you most likely selected the incorrect character set. Data Crow cannot guess the encoding of the import file. To find out which character set you
+  should use I refer you to the documentation of the application which created the export file. Note that the XML exports of Data Crow are always performed in UTF-8.</td></tr>
+    <tr><td>-</td>
+        <td><b>Value separator</b>. 
+        For CSV imports you need to indicate which character was used to separate the values of the items. Set value separator to "TAB" in case
+        tabs were used.</td></tr>
+    <tr><td>-</td>
+        <td><b>Try and match imported items</b>. 
+        If selected, Data Crow will try and check whether the item already exists in the database. If so, it will merge the information 
+        of the two items.</td></tr>        
+  </table><br>
+
+  <h2>Source field mappings</h2>
+  In case you are importing a CSV file you will be asked to map the source fields to the actual Data Crow fields. This is a crucial step in the import.
+  In case you only see one field make sure you have selected the correct value separator in the previous step. Select for each of the fields of the source the correct
+  target name in the table. The target name can be selected from a drop down.
+
+  <h2>Limitations</h2>
+  
+  The CSV import will always skip the first line as it expects the field names to be located on this position.
+
+  </body>
+</html>

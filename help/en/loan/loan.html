@@ -1,0 +1,51 @@
+<html>
+  <head>
+        <link href="../datacrow_help.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+
+    <h1>Lending Items</h1>
+    <i>Right-click in item view &gt; Select Loan Administration</i><br><br>
+
+    Loans can be administered via the right-click menu on pressing "Loan Administration" or via the "Loan" tab of 
+    the <a href="../items/itemform.html" target="main">Item Form</a>. A history of loans is maintained.
+    
+    <br><br><img src="./images/loan.png" alt="" border="0"><br><br>
+
+    You can get an overview of your loans by using the <a href="../loan/loanadmin.html" target="main">Loan Administration</a> 
+    utility from the "Administration" menu. The contact person form also contains a separate tab showing his lend items.
+  
+    <br><br>
+    
+    If an item has been lent and is overdue (the contact person did not return the item before the due date) 
+    a warning message is displayed on start up.
+
+	<h2>Persons</h2>
+	For the loan administration to work, you need to register contacts in the <b>contacts</b> module. 
+	The registration of contacts works just the same as the registration of items in the other modules
+
+	<h2>Lending an item</h2>
+    Specify the person to whom the item will be lend and specify the date on which the loan starts. 
+    If the loan start date is today (or in the past) the item will be marked as unavailable.<br><br>  
+    You can enter a due date to indicate when the person should return the item. If the person returns the item after this date
+    the item will be considered to be overdue.<br><br>  
+    
+    The item cannot be lent to anyone else until the item has been returned. Note that there are 3 fields available 
+    which tell you more about the loan status, "Available", "Loaned By" and "Days Loaned". 
+    These can be added by through the <a href="../settings/fields.html" target="main">General Field Settings</a>.
+
+    <h2>Returning an item</h2>
+    Items borrowed by a person can be registered as "returned". 
+    Press "Return Item". By default the item's return date is today. You can enter a different date in the "end date" 
+    field before pressing the "Return Item" button.
+
+    <h2>Filtering</h2>
+    As stated before there are three fields available which tell something about the loan status of a specific item, 
+    "Available", "Loaned By" and "Days Loaned". These fields can be used to create a <a href="../filters/filters.html" target="main">Filter</a>.<br> 
+    Note that the <a href="../loan/loanadmin.html" target="main">Loan Administration</a> allows you to look at all loans, both current and historically.
+
+    <h2>Loan History</h2>
+    This overview shows the previous loans.
+    
+  </body>
+</html>

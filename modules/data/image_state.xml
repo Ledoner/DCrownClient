@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data-crow-objects xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="image_state.xsd">
+    <state>
+        <item>States</item>
+        <alternative-names></alternative-names>
+        <created>2009-10-17</created>
+        <id>101764900185788</id>
+        <icon>R0lGODlhDgAMALMPAAAAAP9mZswzM/8zM8xmZv8zZrwAAAAYAJkAAMxmM/9mM8wAM8wzAAAAEOcAAAAAACH5BAEAAA8ALAAAAAAOAAwAAARFEMj53rwhZ6kHAVYgCAEyiCJYAcFJksNRzSwcJM2ss0nx6btAQSFQAWuogXHVEpFSNBTBgShkFiCWS3kwCBgCw4ViGUcAADs=</icon>
+        <item>States</item>
+        <label>Lost</label>
+        <modified></modified>
+        <name>Lost</name>
+    </state>
+</data-crow-objects>

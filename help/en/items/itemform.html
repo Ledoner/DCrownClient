@@ -1,0 +1,172 @@
+<html>
+  <head>
+        <link href="../datacrow_help.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+  
+    <h1>Item Form</h1>
+    <i>Menu Path &gt; File &gt; New (CTRL-N)</i><br>
+    <i>or double-click an existing item in the item view</i><br><br>
+
+    The item form shows a single item, new or existing. The form allows you to create, update, or delete an item.
+
+	<br><br><img src="./images/itemform.jpg" alt="" border="0"><br><br>
+
+    Changes to an item can be saved by pressing the "Save" button. Pressing the "Cancel" button discards any changes you have made (a warning is shown first) and closes the form.
+    To delete an item, press the "Delete" button.
+
+    <h2>Buttons</h2>
+    The following buttons can be shown in the Item Form:
+    
+    <br><br><img src="./images/itemform_buttons.png" alt="" border="0"><br><br>
+    
+	<table cellspacing="2" cellpadding="2" border="0">
+    	<tr><td>-</td>
+    		<td><b>Update</b>.
+            Not all modules offer <a href="../onlinesearch/onlinesearch.html">Online Services</a>. If this feature is 
+            available then there is an "Update" button in the lower part of the item form.  
+            The Online Update allows you to find (and use) information about your item using an online service. 
+            More on this is explained <a href="../onlinesearch/onlinesearch.html">here</a>.
+            </td></tr>
+    	<tr><td>-</td>
+    		<td><b>Save</b>.
+            Applies the changes you have made and saves the item.
+            </td></tr>
+    	<tr><td>-</td>
+    		<td><b>Delete</b>.
+            Deletes the item after which it is no longer to be found. This action cannot be undone. Data Crow
+            will ask for confirmation before performing the deletion.
+            </td></tr>
+    	<tr><td>-</td>
+    		<td><b>Close</b>.
+            Closes the item form and discard all changes made. Alternatively you can use the ESC key.
+            </td></tr>
+	</table>
+    
+    <h2>File Menu</h2>
+    
+    <table cellspacing="2" cellpadding="2" border="0">
+        <tr><td>-</td>
+        <td><b>Read File Information</b>.
+        To read the information from a movie file, a music file, etc. go to the "File" menu and select 
+        "Read File Information".<br>
+        If the item already has a filename defined, the information from that file is (re-) read. 
+        Otherwise a dialog is opened which allows you to browse for the file from which you want 
+        the information to be read. Data Crow will read the information from the file and update the
+        values in the item form.        
+        </td></tr>
+    	<tr><td>-</td>
+        <td><b>Close</b>.
+        Closes the item form and discard all changes made. Alternatively you can use the ESC key.
+        </td></tr>        
+    </table>
+    
+    <h2>Item Form Layout</h2>
+    The Item Form is divided in tabs. These tabs can hold one or more input fields. 
+    
+    <br><br><img src="./images/itemform_tabs.png" alt="" border="0"><br><br>
+    
+    <br><br>
+    <b>Note:</b> You can modify the layout of the item form using the <a href="../settings/itemformsettings.html">item form settings</a>.
+    
+    <h2>Entering Information</h2>
+    This section explains the various types of fields you might encounter when entering information.
+    
+    <h3>Text Field</h3>
+    In a text field, as shown below, you can enter any kind of text. 
+    
+    <br><br><img src="./images/itemform_fields_text.png" alt="" border="0"><br><br>
+    
+    There are also larger text fields such as the description field as shown below:
+    
+    <br><br><img src="./images/itemform_fields_textlong.png" alt="" border="0"><br>
+    
+    The scrollbar on the right hand side can be used to move up and down through the text.<br><br>
+    
+    To view the text even better you can double click anywhere in the field and a separate dialog is opened:
+    
+    <br><br><img src="./images/itemform_fields_textlong_zoom.png" alt="" border="0"><br><br>
+    
+    This dialog can be enlarged, of course, and can be used to view and/or edit the text in a more convenient way.
+    
+    <h3>Number Field</h3>
+    In a number field only numbers can be entered (without decimal characters).
+    
+    <br><br><img src="./images/itemform_fields_number.png" alt="" border="0">
+    
+    <h3>Tag Fields</h3>
+    A tag field can be very useful for quickly specifying certain characteristics, not fitting in 
+    any of the other fields. Tag words / tags are saved and reused for every item within Data Crow. 
+    While typing Data Crow will suggest existing tags / tag words. Note that the tags / tag words 
+    can be maintained from within the <a href="./administration.html">Administration menu</a>.  
+    
+    <br><br><img src="./images/itemform_fields_tag.png" alt="" border="0">
+    
+    <h3>Drop Down</h3>
+    Drop downs contain predefined values that can be assigned to an item. Simply select the value from the list.
+    
+    <br><br><img src="./images/itemform_dropdown.png" alt="" border="0"><br><br>
+    
+    In case you are missing an item in the drop down a new item can be created.
+    To add a new item to the list press the <img src="./images/itemform_dropdown_add.png" alt="" border="0"> button. This will open
+    a new item form where the values can be entered. Press "Save" once satisfied and the item will be added to the Drop Down.
+
+    <h3>Multi-Reference Field</h3>
+
+    This field is explained <a href="../items/itemform_multireference.html">here</a>.
+
+    <h3>File Field</h3>
+    Here a link can be created to a file in the system. Press the <img src="./images/itemform_fields_multi_reference_open.png" alt="" border="0"> icon 
+    to browse for the file you want to link to this item. 
+    
+    <br><br><img src="./images/itemform_fields_file_field.png" alt="" border="0"><br><br>
+    
+    A file can be started/launched by clicking on the <img src="./images/itemform_fields_file_field_launch.png" alt="" border="0"> icon.
+
+	<h3>Images</h3>
+    Each image of an item is shown in a separate tab. 
+    
+    <br><br><img src="./images/itemform_pictures.png" alt="" border="0"><br><br>
+    
+    Images can be exported, edited, added, deleted or replaced via these tabs. 
+    To add or replace an image select for example "Add from File" from the "File" menu and browse for the specific image. 
+    To save the image to disk select "save as". <br>
+    Via the "edit" menu an image can edited or deleted. There are several options for editing such as rotating and sharpening.
+
+    <h2>Children</h2>
+    In case the module has a child module, such as the Audio CD module, you can create children for its items.
+    
+    <br><br><img src="./images/itemform_children.png" alt="" border="0"><br><br>
+    
+    <h3>Create Multiple</h3>
+    If you want to create multiple items at once, press the "Create Multiple" button.
+
+    <br><br><img src="./images/administration_createmultiple.png " alt="" border="0"><br><br>
+    
+    To add a row to this overview press the "Add" button. Click on the row and start typing.
+    Once you have entered information for all the lines you have added press the "Save" button.
+    Your items are created!  
+
+    <h3>Opening an item</h3>
+    Double-click on the item and it will open the item form. 
+    From here you can view and/or edit the item (depending on your privileges in the 
+    <a href="../security/security.html">security</a> and the <a href="../settings/general.html">general settings</a>). 
+    
+    <h3>Deleting an Item</h3>
+    If you right-click on one of the items you can choose to delete the item.<br> 
+
+    <h2>Related Items</h2>
+    The related items tab shows which items have a relationship with this item. In the example below we are looking at the software category Adventure. 
+    This category has been assigned to a number of items among which Simon the Sorcerer 2. You can double-click the item to open it. 
+    
+    <br><br><img src="./images/itemform_references.png" alt="" border="0"><br><br>
+    
+    <h2>Loan administration</h2>
+    Here you can register a loan or mark a lend item as returned, making it available for others to lend.
+    Read <a href="../loan/loan.html">this</a> for more help. Additionally there is one overview showing all the loans 
+    (also historical). This overview can be found in the Administration menu and is called 
+    <a href="../loan/loanadmin.html">Loan Administration</a>.
+
+  </body>
+</html>

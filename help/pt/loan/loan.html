@@ -1,0 +1,58 @@
+<html>
+  <head>
+        <link href="../datacrow_help.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+
+    <h1>Emprestar itens</h1>
+    <i>Clique num item com o bot&atilde;o direito &gt; Selecione Gest&atilde;o de empr&eacute;stimos</i><br><br>
+
+    Os empr&eacute;stimos podem ser geridos numa janela que abre ao escolher "Gest&atilde;o de empr&eacute;stimos",
+	no menu que abre quando clica com o bot&atilde;o direito no item, ou no separador <b>Empr&eacute;stimo</b> no 
+    <a href="../items/itemform.html" target="main">Formul&aacute;rio de item</a>. &Eacute; mantido um hist&oacute;rico 
+	de empr&eacute;stimos.
+    
+    <br><br><img src="./images/loan_pt.png" alt="" border="0"><br><br>
+
+    Pode obter um resumo dos seus empr&eacute;stimos usando a funcionalidade
+	<a href="../loan/loanadmin.html" target="main">Gest&atilde;o de empr&eacute;stimos</a> 
+    no menu <b>Gest&atilde;o</b>. O formul&aacute;rio <i>Pessoa</i> tamb&eacute;m cont&eacute;m um separador 
+	que mostra os itens que lhe	est&atilde;o emprestados.
+  
+    <br><br>
+    
+    Se um item foi emprestado e j&aacute; ultrapassou o prazo de devolu&ccedil;&atilde;o (a pessoa n&atilde;o devolveu 
+	o item at&eacute; &agrave; data combinada), &eacute; mostrada uma mensagem de aviso no arranque.
+
+	<h2>Pessoas</h2>
+	Para que a gest&atilde;o de empr&eacute;stimos funcione, tem de registar pessoas no m&oacute;dulo <b>Pessoas</b>. 
+	O registo de pessoa funciona da mesma forma que o registo de um item em qualquer outro m&oacute;dulo.
+
+	<h2>Emprestar um  item</h2>
+    Especifique a pessoa a quem vai emprestar o item e a data em que o empr&eacute;stimo se inicia. 
+    Se a dat inicial &eacute; hoje (ou no passado) o item ser&aacute; marcado como indispon&iacute;vel.<br><br>  
+    Pode introduzir uma data ultrapassada para indicar quando &eacute; que a pessoa deve devolver o item. Se a pessoa 
+	devolver o item depois desta data considera-se a devolu&ccedil;&atilde;o com o prazo ultrapassado.<br><br>  
+    
+    O item n&atilde;o pode ser emprestado a mais ningu&eacute;m at&eacute; que seja devolvido. Note que h&aacute; tr&ecirc;s campos 
+	dispon&iacute;veis que lhe dizem mais acerca do estado do empr&eacute;stimo, "Dispon&iacute;vel", "Emprestado a" e 
+	"Dias do empr&eacute;stimo". Estes podem se adicionados nas
+    <a href="../settings/fields.html" target="main">Defini&ccedil;&otilde;es gerais de campos</a>.
+
+    <h2>Devolu&ccedil;&atilde;o de um item</h2>
+    Os items emprestados devolvidos por uma pessoa podem ser registados como "Devolvido". 
+    Prima "Receber item". Por predefini&ccedil;&atilde;o a data de devolu&ccedil;&atilde;o &eacute; a atual. Pode introduzir 
+	uma data diferente no campo "Data final" antes de clicar em "Receber item".
+
+    <h2>Filtrar</h2>
+    Como foi dito atr&aacute;s, h&aacute; tr&ecirc;s campos dispon&iacute;veis que nos dizem mais acerca do estado do empr&eacute;stimo 
+	de um item espec&iacute;fico, "Dispon&iacute;vel", "Emprestado a" e "Dias do empr&eacute;stimo". Estes campos podem ser usados para
+    criar um <a href="../filters/filters.html" target="main">Filtro</a>.<br> 
+    Note que a <a href="../loan/loanadmin.html" target="main">Gest&atilde;o de empr&eacute;stimos</a> permite-lhe ver todos os
+	empr&eacute;stimos, tanto hist&oacute;ricos como atuais.
+
+    <h2>Hist&oacute;rico de empr&eacute;stimos</h2>
+    Este resumo mostra empr&eacute;stimos anteriores.
+    
+  </body>
+</html>

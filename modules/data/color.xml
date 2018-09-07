@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data-crow-objects xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="color.xsd">
+    <color>
+        <item>Colors</item>
+        <alternative-names>;BW;Black &amp; White;B&amp;W;Greyscale;</alternative-names>
+        <created>2009-10-17</created>
+        <id>101722445510084</id>
+        <icon></icon>
+        <item>Colors</item>
+        <label>Black and White</label>
+        <modified></modified>
+        <name>Black and White</name>
+    </color>
+    <color>
+        <item>Colors</item>
+        <alternative-names></alternative-names>
+        <created>2009-10-17</created>
+        <id>101756062040470</id>
+        <icon></icon>
+        <item>Colors</item>
+        <label>Color</label>
+        <modified></modified>
+        <name>Color</name>
+    </color>
+</data-crow-objects>

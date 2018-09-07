@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xsd:element name="modules">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element maxOccurs="unbounded" ref="module"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="field" type="type-field" />
+    <xsd:complexType name="type-field">
+        <xsd:sequence>
+            <xsd:element name="index" type="xsd:integer"/>
+            <xsd:element name="name" type="xsd:string"/>
+            <xsd:element name="database-column-name" type="xsd:string"/>
+            <xsd:element name="ui-only" type="xsd:string"/>
+            <xsd:element name="enabled" type="xsd:string"/>
+            <xsd:element name="readonly" type="xsd:string"/>
+            <xsd:element name="searchable" type="xsd:string"/>
+            <xsd:element name="techinfo" type="xsd:string"/>
+            <xsd:element name="maximum-length" type="xsd:integer"/>
+            <xsd:element name="field-type" type="xsd:integer"/>
+            <xsd:element name="module-reference" type="xsd:integer"/>
+            <xsd:element name="value-type" type="xsd:integer"/>
+       </xsd:sequence>
+    </xsd:complexType>
+    
+    <xsd:element name="module" type="type-module"/>
+    <xsd:complexType name="type-module">
+        <xsd:sequence>
+            <xsd:element name="index" type="xsd:integer"/>
+            <xsd:element name="display-index" type="xsd:integer"/>
+            <xsd:element name="label" type="xsd:string"/>
+            <xsd:element name="name" type="xsd:string"/>
+            <xsd:element name="description" type="xsd:string"/>
+            <xsd:element name="key-stroke" type="xsd:string"/>
+            <xsd:element name="enabled" type="xsd:string"/>
+            <xsd:element name="can-be-lended" type="xsd:string"/>
+            <xsd:element name="icon-32" type="xsd:string"/>
+            <xsd:element name="icon-16" type="xsd:string"/>
+            <xsd:element name="object-name" type="xsd:string"/>
+            <xsd:element name="object-class" type="xsd:string"/>
+            <xsd:element name="object-name-plural" type="xsd:string"/>
+            <xsd:element name="table-name" type="xsd:string"/>
+            <xsd:element name="table-short-name" type="xsd:string"/>
+            <xsd:element name="module-class" type="xsd:string"/>
+            <xsd:element name="child-module" type="xsd:integer"/>
+            <xsd:element name="parent-module" type="xsd:integer"/>
+            <xsd:element name="has-search-view" type="xsd:string"/>
+            <xsd:element name="has-insert-view" type="xsd:string"/>
+            <xsd:element name="online-search-ui-class" type="xsd:string"/>
+            <xsd:element name="import-ui-class" type="xsd:string"/>
+            <xsd:element name="synchronizer-class" type="xsd:string"/>
+            <xsd:element name="demo-filepath" type="xsd:string"/>
+            <xsd:element name="has-depending-modules" type="xsd:string"/>
+            <xsd:element name="default-sort-field-index" type="xsd:integer"/>
+            <xsd:element name="name-field-index" type="xsd:integer"/>
+            <xsd:element name="is-serving-multiple-modules" type="xsd:string"/>
+            <xsd:element name="fields" />
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:element name="fields">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element maxOccurs="unbounded" ref="field"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    
+</xsd:schema>

@@ -1,0 +1,152 @@
+<html>
+  <head>
+        <link href="../datacrow_help.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+
+    <h1>Using Filters</h1>
+    By default, all items are shown in a view. To find specific items you can specify a filter. 
+    There are two options for filtering, you can use the quick search which is 
+    located on <a href="../general/toolbar.html">tool bar</a> or you can use the filter dialog which allows for filtering on more than one 
+    field / value and has more options.
+
+    <h1>Filter Dialog</h1>
+    <i>Menu Path: Filter &gt; Filter</i><br><br>
+    
+    Go to the filter dialog via the "Filter" button, which is available from the <a href="../general/toolbar.html">tool bar</a>. 
+    The dialog has three tabs; the "Filter", "Sort" and "Maintain". In the filter tab the filter is defined. 
+    The sort tab allows for defining the way the result should be sorted and the manage tab allows for filters to be saved for reuse and 
+    saved filters to be deleted or edited.<br><br>
+    
+    <img src="./images/filterdialog.jpg">
+    
+    <h2>Creating a Filter</h2>
+    A filter is made up of entries. In the "filter" tab you can define these entries. In the lower part you define
+    which field should be filtered on,  the value and the operator used for comparison. After entering all the information press 
+    "add" to add the entry to filter.
+    
+    <h3>And / Or</h3>
+    In the first list you can select the inclusion type, "and" or "or". The first entry in the filter is always "and", this cannot be changed. 
+    For the next entries however you can choose to include the entry as "and" or as "or". 
+    <br><br>Example: You want to filter on movies having the state "seen" or "want to have". <br>
+    The filter should then have the follow entries:<br>
+    <i>And</i> State equal to "seen".<br>
+    <i>Or</i> State equal to "want to have". 
+    
+    <h3>Module</h3>
+    The module you want to select a field from. Mostly this list will only contain the current module, such as the "Software" module 
+    or the "Book" module. However when a module has a child module such as is the case with the "Audio CD" module 
+    (having "Audio Track" module as child) you can select either the parent or the child module.<br>
+    The selected module determines the fields to be shown in the fields drop down.
+    
+    <h3>Field</h3>
+    Shows the fields belonging to the selected module. Not all fields might be shown as there are fields on which no 
+    filter can be created.
+    
+    <h3>Operator</h3>
+    Here you can define how the value of the field should be compared. By default the "Equal To" operator is selected 
+    which means the value should be exactly the same. The operators speak pretty much for themselves 
+    ("is filled", "is empty", "contains", ..). Note that you can create multiple entries for one field. This allows for 
+    filtering on one field using multiple types of operators (such as "is empty" combined with "or contains 'test').
+
+    <br><b>All Field Types</b>
+    <table>
+        <tr><td>-</td>
+            <td><b>Is Filled</b>.
+                Field contains any value.</td></tr>
+        <tr><td>-</td>
+            <td><b>Is Empty</b>.
+                Field contains no value.</td></tr>
+        <tr><td>-</td>
+            <td><b>Equal To</b>.
+                Field value matches the value. Example: Data Crow Equal to "Data Crow".</td></tr>
+        <tr><td>-</td>
+            <td><b>Not Equal To</b>.
+                Field value does not match the value. Example: Data Crow Not Equal to "Doom".</td></tr>                
+    </table>
+    
+    
+    <br><b>Text Fields</b>
+
+    <table>
+        <tr><td>-</td>
+            <td><b>Contains</b>.
+                Field value contains the selected or entered value. Example: Data Crow contains "Cro".</td></tr>
+        <tr><td>-</td>
+            <td><b>Does not Contain</b>.
+                Field value does not contain the value. Example: Data Crow does not contain "Bo".</td></tr>  
+        <tr><td>-</td>
+            <td><b>Starts with</b>.
+                Field value starts with the value. Example: Data Crow Starts with "Data".</td></tr>                 
+        <tr><td>-</td>
+            <td><b>Ends with</b>.
+                Field value ends with the value. Example: Data Crow Ends with "Crow".</td></tr>  
+    </table>   
+    
+    <br><b>Numeric Fields</b>
+
+    <table>    
+        <tr><td>-</td>
+        <td><b>Is Less Then</b>.
+            Field value is smaller than the value. Example: 5 is Less Then "10".</td></tr>
+        <tr><td>-</td>
+        <td><b>Is Greater Then</b>.
+            Field value is greater than the value. Example: 10 is Greater Then "5".</td></tr>                
+    </table>
+    
+    <<br><b>Date Fields</b>
+
+    <table>    
+        <tr><td>-</td>
+        <td><b>Days Before</b>.
+            Field value is a selected number of days ago.</td></tr>
+        <tr><td>-</td>
+        <td><b>Days After</b>.
+            Field value is a selected number of days in the future.</td></tr>
+        <tr><td>-</td>
+        <td><b>Today</b>.
+            Field value is today.</td></tr>  
+        <tr><td>-</td>
+        <td><b>Months ago</b>.
+            Field value is a selected number of days ago.</td></tr>
+        <tr><td>-</td>
+        <td><b>Years ago</b>.
+            Field value is a selected number of years ago.</td></tr>                 
+    </table>    
+    
+    <h3>Value</h3>
+    The way this field represents itself depends on the field you have selected. Either this will contain a list of fixed values or allows you to enter a value yourself (by typing).
+    
+    <h3>Editing Filter Entries</h3>
+    You can modify any entry in the entry list by double-clicking it. You can then edit the filter in the lower part off the screen. After making the desired changes you add the entry by pressing the "add" button.
+    
+    <h3>Removing Filter Entries</h3>
+    You can remove the entry by double-clicking it.
+
+    <h2>Sort</h2>
+    In the sort tab you can define how the result should be sorted. This is explained in the <a href="../items/sort.html">Sort section</a> of this help.
+    
+    <br><br><img src="./images/filterdialog-sort.jpg">
+    
+    <h2>Managing filters</h2>
+    To manage filters you go to the "manage" tab. Here you can save a filter so it can be re-used. Saved filters will appear in the quick filter toolbar.
+    
+    <br><br><img src="./images/filterdialog-manage.jpg">
+    
+	<h3>Saving a new Filter</h3>
+	You can save a filter so it can be reused. In the manage tab there is an area called "Save filter". Enter a name for the 
+	filter and press the "save" button. The filter is now saved and can be selected from the list in this tab or from the quick filter bar.
+
+	<h3>Modifying an existing Filter</h3>
+	Select the filter you want to modify from the list in the "Existing filters" area and press the "edit" button. The filter tab is opened, showing the entries of the selected filter. Make the changes. Return to the "manage" tab to save the changes you have made.
+
+	<h3>Deleting an existing Filter</h3>
+	Select the filter you want to delete from the list in the "Existing filters" area and press the "delete" button.
+	
+	<h3>Applying an existing Filter</h3>
+	You can apply a saved filter either by selecting it from the quick filter tool bar or by selecting it from the list in the 
+	manage tab by pressing the "apply" button.
+
+  </body>
+</html>
