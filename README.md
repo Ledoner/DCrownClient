@@ -1,9 +1,11 @@
+ ![Travis Status](https://travis-ci.org/datacrow/client.svg?branch=master)
+ ```
  <-----/@@\----->                              
 <-< <  \\//  > >->                             
   <-<-\ __ /->->                               
   Data /  \ Crow                               
       ^    ^ 
-
+```
 Created by Robert Jan van der Waals
 
 Contact me at info@datacrow.net
