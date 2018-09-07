@@ -4,7 +4,7 @@
     <target depends="build-datacrow" name="build"/>
 
     <path id="datacrow.class.path">
-        <fileset dir="../datacrow-core/lib/">
+        <fileset dir="./lib/">
         	<include name="commons/*.jar"/>
             <include name="html/*.jar"/>
             <include name="jacksum/*.jar"/>
@@ -17,8 +17,6 @@
             <include name="xml/*.jar"/>
         	<include name="xml-rpc/*.jar"/>
             <include name="zip/*.jar"/>       
-        </fileset>
-        <fileset dir="./lib/">
             <include name="*.jar"/>
             <include name="apache-tika/*.jar"/>
         	<include name="chart/*.jar"/>
