@@ -72,7 +72,7 @@ public class ViewUpdater extends Thread {
             try {
                 sleep(100);
             } catch (Exception e) {
-                logger.error("Ërror while trying to sleep a little before clearing the next element", e);
+                logger.error("Error while trying to sleep a little before clearing the next element", e);
             }
         }
     }
