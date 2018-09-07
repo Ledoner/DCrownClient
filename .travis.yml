@@ -1,1 +1,13 @@
 language: java
+script: ant
+before_script:
+- "./get_dependencies.sh"
+deploy:
+  skip_cleanup: true
+  provider: releases
+  api_key:
+    secure: leSEjPTpJibApvDL1X3wArJt1lgCOMnDzU2cDjaXArXwQXVLqIYwTkJHtKG6CJPC2FoSjcxLkSVoSzRJJ/OD4C3Ibw+xmct92a7Qdwc+zcER5Kn6MUI4s9++mxLKMJWoCmAtLwgAdnEI2YGqUFvwEKoPdL+tnmImU3hXinPl5nBGAWpHXkNKUz0alL+tlT+N18ucXMEHoSFoil1hsrkvxk1EcIDxLwAFllhad0q5tZJ4am6D0S3EcfmhYkv2aHnUgqr8Ez6ehPcywgAUmEFPPMU56iY+039G95zvkV9h4E160qt1gm3mrgqwz2jambx7XoopEL8nwdADX4FCNHlhdKrbrhB+mCM6+GkGV/lFl8sA1dReeQkWb1YBmrpwr5YUwzwqieXWpNg2WjJ/IeWvEyvghDpT3gWxDi5dUhaR30XwhalV3ndmW0CkgX+9AF66A7e+CA7rs/1jdZQq3pLzII4ggLIo2KxZjR69YA8YV3oM+5gAAVsRuqe4PZSTAK9x0aMpuoEcnYo+eyer1t5DCHGVogndu3hKbsZ9YvZvDCe/TY64lAIAirBWuhTyCccm9e4iMmH2XpstIZgANGbeaeBlUVBE6q/jduVl3406l9JCD+gADg1ySGk9cGPOVe8ounNIy3R2nzhfE/fs7T+0p9L14CJSdORo14bE0qantX8=
+  file: datacrow-client.jar
+  on:
+    repo: datacrow/client
+    tags: true
